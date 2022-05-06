@@ -5,12 +5,117 @@
     <link>https://maabedelhay.github.io/post/</link>
       <atom:link href="https://maabedelhay.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 13 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 06 May 2022 10:58:11 +0300</lastBuildDate>
     <image>
       <url>https://maabedelhay.github.io/media/icon_hu98ef5755a27b69a18f879b9391920e5a_85803_512x512_fill_lanczos_center_3.png</url>
       <title>Posts</title>
       <link>https://maabedelhay.github.io/post/</link>
     </image>
+    
+    <item>
+      <title>Git Контроль Версий</title>
+      <link>https://maabedelhay.github.io/post/git-post/git-version-control/</link>
+      <pubDate>Fri, 06 May 2022 10:58:11 +0300</pubDate>
+      <guid>https://maabedelhay.github.io/post/git-post/git-version-control/</guid>
+      <description>&lt;h4 id=&#34;git--это-система-контроля-версий-которую-разработчики-используют-во-всем-мире-для-обмена-разрабатываемым-программным-обеспечением-это-помогает-вам-отслеживать-различные-версии-вашего-кода-и-сотрудничать-с-другими-разработчиками&#34;&gt;Git — это система контроля версий, которую разработчики используют во всем мире для обмена разрабатываемым программным обеспечением. Это помогает вам отслеживать различные версии вашего кода и сотрудничать с другими разработчиками.&lt;/h4&gt;
+&lt;p&gt;Если вы работаете над проектом в течение долгого времени, вы можете захотеть отслеживать, какие изменения были внесены, кем и когда эти изменения были внесены. git позволит вам это сделать.&lt;/p&gt;
+&lt;h4 id=&#34;темы&#34;&gt;Темы:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Что такое гит ?&lt;/li&gt;
+&lt;li&gt;Как начать использовать Git ?&lt;/li&gt;
+&lt;li&gt;Распространенные команды в gi&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;что-такое-гит&#34;&gt;Что такое гит&lt;/h1&gt;
+&lt;hr&gt;
+&lt;p&gt;Это система контроля версий, которую вы загружаете на свой компьютер. Крайне важно, чтобы вы использовали Git, если хотите сотрудничать с другими разработчиками в проекте кодирования или работать над своим собственным проектом.&lt;/p&gt;
+&lt;p&gt;Чтобы проверить, установлен ли уже Git на вашем компьютере, вы можете ввести команду git &amp;ndash;version в терминале.&lt;/p&gt;
+&lt;p&gt;Если у вас уже установлен Git, вы увидите, какая у вас версия. Если у вас не установлен Git, вы можете загрузить его с веб-сайта, если вы используете Windows. Если вы используете Linux, загрузите его из менеджера пакетов. На пример&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ sudo install git &lt;span class=&#34;c1&#34;&gt;# Debian,Ubuntu, popOS ,Kali ..&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ sudo pacman -S git &lt;span class=&#34;c1&#34;&gt;# Arch , manjaro , garuda ..&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ sudo dnf install git &lt;span class=&#34;c1&#34;&gt;# redhat ,fedora ..&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;как-начать-использовать-git&#34;&gt;Как начать использовать Git&lt;/h1&gt;
+&lt;hr&gt;
+&lt;p&gt;создайте каталог для нового проекта &lt;code&gt;mkdir broject-name&lt;/code&gt;. Cоздайте файл README.md для примера. затем создайте каталог git, используя &lt;code&gt;git init&lt;/code&gt; .&lt;/p&gt;
+&lt;p&gt;репозиторий git — это папка &lt;strong&gt;.git&lt;/strong&gt; внутри папки нашего проекта. вы можете увидеть это, используя &lt;code&gt;ls -a&lt;/code&gt;. Он будет отслеживать все изменения, внесенные в файлы в нашем проекте, и записывать эту историю с течением времени. со временем вы отредактируете проект и сделаете коммит. внутри каталога .git вы можете используйте команду &lt;code&gt;git log&lt;/code&gt;, чтобы получить список всех коммитов в репозитории.&lt;/p&gt;
+&lt;h1 id=&#34;некоторые-команды-в-git&#34;&gt;Некоторые команды в git&lt;/h1&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;работа-с-локальным-репо&#34;&gt;Работа с локальным репо:&lt;/h2&gt;
+&lt;h3 id=&#34;git-init&#34;&gt;git init&lt;/h3&gt;
+&lt;p&gt;Команда превращает каталог в пустой репозиторий GIT. Это первый шаг в создании репозитория GIT. После этого мы можем добавить, зафиксировать и нажать.&lt;/p&gt;
+&lt;p&gt;использование:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ &lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; /Projects/new-dir
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ git init
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;git-add&#34;&gt;git add&lt;/h3&gt;
+&lt;p&gt;Это добавит файлы в репозиторий GIT. Существует несколько причин для его использования.&lt;/p&gt;
+&lt;p&gt;использование:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ git add . &lt;span class=&#34;c1&#34;&gt;# весь каталог&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ git add index.html &lt;span class=&#34;c1&#34;&gt;# конкретный файл&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;git-commit&#34;&gt;git commit&lt;/h3&gt;
+&lt;p&gt;Запишите изменения, внесенные в файлы, в локальный репозиторий. Для удобства каждый коммит имеет уникальный идентификатор.&lt;/p&gt;
+&lt;p&gt;использование:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ git commit -m &lt;span class=&#34;s2&#34;&gt;&amp;#34;My first commit&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;работа-с-удаленным-репо&#34;&gt;Работа с удаленным репо:&lt;/h2&gt;
+&lt;h3 id=&#34;git-remote&#34;&gt;git remote&lt;/h3&gt;
+&lt;p&gt;Для подключения локального репозитория к удаленному репозиторию. Удаленный репозиторий может иметь заданное имя, чтобы не запоминать URL-адрес репозитория.&lt;/p&gt;
+&lt;p&gt;использование:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ git remote add https://github.com/remote-repo-name 
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;git-clone&#34;&gt;git clone&lt;/h3&gt;
+&lt;p&gt;Чтобы создать локальную рабочую копию существующего удаленного репозитория, используйте git clone для копирования и загрузки репозитория на компьютер. Клонирование — это эквивалент git init при работе с удаленным репозиторием. Git создаст локальный каталог со всеми файлами и историей репозитория.&lt;/p&gt;
+&lt;p&gt;использование:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ git clone https://github.com/example-repo
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;git-pull&#34;&gt;git pull&lt;/h3&gt;
+&lt;p&gt;Чтобы получить последнюю версию репозитория, запустите git pull. Это перенесет изменения из удаленного репозитория на локальный компьютер.&lt;/p&gt;
+&lt;p&gt;использование:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ git pull https://github.com/your-repo
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;git-push&#34;&gt;git push&lt;/h3&gt;
+&lt;p&gt;Отправляет локальные коммиты в удаленный репозиторий. git push требует два параметра: удаленный репозиторий и ветку, для которой выполняется push.&lt;/p&gt;
+&lt;p&gt;использование:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ git push origin master &lt;span class=&#34;c1&#34;&gt;# master — это имя ветки по умолчанию в github.&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;вывод&#34;&gt;Вывод&lt;/h1&gt;
+&lt;hr&gt;
+&lt;p&gt;GIT определенно является одним из близких друзей разработчиков. Изучение GIT улучшит ваш рабочий процесс и повысит производительность. Это было небольшое введение в систему контроля версий GIT. О GIT можно рассказать еще очень много. Я настоятельно рекомендую узнать больше о GIT и его различных командах.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Первый шаг в индивидуальном проекте</title>
+      <link>https://maabedelhay.github.io/post/first-step/first-step/</link>
+      <pubDate>Thu, 05 May 2022 22:00:08 +0300</pubDate>
+      <guid>https://maabedelhay.github.io/post/first-step/first-step/</guid>
+      <description>&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/xDliIL-_vWo&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h1 id=&#34;обзор&#34;&gt;Обзор&lt;/h1&gt;
+&lt;p&gt;Цель состоит в том, чтобы разместить статический веб-сайт на github с использованием веб-генератора Hugo и шаблонов wowchemy, которые закладывают базовый шаблон для начала работы.&lt;/p&gt;
+&lt;h1 id=&#34;последовательность-работы&#34;&gt;Последовательность работы&lt;/h1&gt;
+&lt;h2 id=&#34;установка-hugo&#34;&gt;Установка hugo&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Сначала установил последнюю версию Hugo. Обратите внимание, что нам нужна версия .tar .&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/gohugoio/hugo/releases&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Установите hugo отсюда&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Затем переместил исполняемый файл Hugo в каталог inyo bin.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ mv hugo /usr/bin/
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;клонирование-шаблона&#34;&gt;Клонирование шаблона&lt;/h2&gt;
+&lt;p&gt;Я создал репо путем с использованием &lt;a href=&#34;https://github.com/wowchemy/starter-hugo-academic&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;starter-hugo-academic&lt;/a&gt; шаблон. Затем я клонировал репозиторий на свое устройство и назвал его блогом.&lt;/p&gt;
+&lt;h2 id=&#34;инициализация-hugo&#34;&gt;Инициализация hugo&lt;/h2&gt;
+&lt;p&gt;-Внутри каталога /blog я запустил сервер Hugo и Hugo.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ hugo
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ hugo server
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Это запустил сайт на локальном хосте&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;создать-репозиторий-сайта&#34;&gt;создать репозиторий сайта&lt;/h2&gt;
+&lt;p&gt;Я создал репозиторий и назвал его &lt;strong&gt;username.github.io&lt;/strong&gt; , например, &lt;strong&gt;maabedelhay.github.io&lt;/strong&gt; . Затем я клонировал его на свое устройство и внутри клонированного каталога.&lt;/p&gt;
+&lt;h2 id=&#34;push--в-main&#34;&gt;Push  в main&lt;/h2&gt;
+&lt;p&gt;Последний шаг — отправить все на github, чтобы увидеть сайт в прямом эфире!&lt;/p&gt;
+&lt;h1 id=&#34;вывод&#34;&gt;Вывод&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Точно так же у нас есть базовый личный сайт, размещенный на github. Кодирование не использовалось, просто выполнялись простые команды, и у нас появился сайт Live в Интернете.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Welcome to Wowchemy, the website builder for Hugo</title>
