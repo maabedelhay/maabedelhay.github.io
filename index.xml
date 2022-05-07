@@ -18,27 +18,7 @@
       <pubDate>Sat, 07 May 2022 13:28:34 +0300</pubDate>
       <guid>https://maabedelhay.github.io/post/autodeploy-script/bash-deploy/</guid>
       <description>&lt;h1 id=&#34;every-time-i-make-a-change-on-the-site-i-need-to-go-through-set-of-repeated-commands-so-i-decided-to-make-a-simple-bash-script-to-automate-the-task&#34;&gt;Every time I make a change on the site I need to go through set of repeated commands. So I decided to make a simple bash script to automate the task.&lt;/h1&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;bash.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
+ &lt;img src=&#34;https://camo.githubusercontent.com/a7de91b915d8b286dda762e3683d9a1c961692d43f8349d020ecd54634a823cf/68747470733a2f2f63646e2e7261776769742e636f6d2f6f64622f6f6666696369616c2d626173682d6c6f676f2f6d61737465722f6173736574732f4c6f676f732f4964656e746974792f504e472f424153485f6c6f676f2d7472616e73706172656e742d62672d636f6c6f722e706e67&#34; alt=&#34;failed&#34; &gt; 
 &lt;h2 id=&#34;what-is-bash-script&#34;&gt;What is bash script?&lt;/h2&gt;
 &lt;p&gt;A Bash script is a text file containing a series of commands. Any command that can be executed in the terminal can be put into a Bash script. Any series of commands to be executed in the terminal can be written in a text file, in that order, as a Bash script. There for it is used to automate repetitive tasks on Linux file system. For more information  &lt;a href=&#34;https://www.javatpoint.com/bash-scripting&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;read more about bash&lt;/a&gt; .&lt;/p&gt;
 &lt;h2 id=&#34;deploying-the-site&#34;&gt;Deploying the site&lt;/h2&gt;
@@ -94,6 +74,7 @@
       <pubDate>Fri, 06 May 2022 10:58:11 +0300</pubDate>
       <guid>https://maabedelhay.github.io/post/git-post/git-version-control/</guid>
       <description>&lt;h4 id=&#34;git--это-система-контроля-версий-которую-разработчики-используют-во-всем-мире-для-обмена-разрабатываемым-программным-обеспечением-это-помогает-вам-отслеживать-различные-версии-вашего-кода-и-сотрудничать-с-другими-разработчиками&#34;&gt;Git — это система контроля версий, которую разработчики используют во всем мире для обмена разрабатываемым программным обеспечением. Это помогает вам отслеживать различные версии вашего кода и сотрудничать с другими разработчиками.&lt;/h4&gt;
+ &lt;img src=&#34;https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Git-logo.svg/2000px-Git-logo.svg.png&#34; alt=&#34;failed&#34; &gt; 
 &lt;p&gt;Если вы работаете над проектом в течение долгого времени, вы можете захотеть отслеживать, какие изменения были внесены, кем и когда эти изменения были внесены. git позволит вам это сделать.&lt;/p&gt;
 &lt;h4 id=&#34;темы&#34;&gt;Темы:&lt;/h4&gt;
 &lt;ul&gt;
