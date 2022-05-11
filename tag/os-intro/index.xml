@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>os-intro | </title>
+    <link>https://maabedelhay.github.io/tag/os-intro/</link>
+      <atom:link href="https://maabedelhay.github.io/tag/os-intro/index.xml" rel="self" type="application/rss+xml" />
+    <description>os-intro</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 11 May 2022 18:01:15 +0300</lastBuildDate>
+    <image>
+      <url>https://maabedelhay.github.io/media/icon_hu98ef5755a27b69a18f879b9391920e5a_85803_512x512_fill_lanczos_center_3.png</url>
+      <title>os-intro</title>
+      <link>https://maabedelhay.github.io/tag/os-intro/</link>
+    </image>
+    
+    <item>
+      <title>Latex- A document preparation system </title>
+      <link>https://maabedelhay.github.io/post/latex/latex-post/</link>
+      <pubDate>Wed, 11 May 2022 18:01:15 +0300</pubDate>
+      <guid>https://maabedelhay.github.io/post/latex/latex-post/</guid>
+      <description>&lt;h1 id=&#34;latex-is-a-free-software-package--used-for-typesetting-technical-documents&#34;&gt;LaTeX is a free software package  used for typesetting technical documents.&lt;/h1&gt;
+&lt;hr&gt;
+&lt;p&gt;LAtex have the ability to typeset technical documents that contain complex mathematical equations. This feature made LaTeX popular with scientists and engineers&lt;/p&gt;
+&lt;p&gt;LaTeX can be used as a standalone document preparation system, or as an intermediate format. In the latter role, for example, it is sometimes used as part of a pipeline for translating DocBook and other XML-based formats to PDF.&lt;/p&gt;
+&lt;h2 id=&#34;how-to-install-it&#34;&gt;How to install it?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Install TexLive&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;On th ecommand line write&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo apt install tex-live-full &lt;span class=&#34;c1&#34;&gt;# Ubuntu and Debian like machines&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo pacman -Syyu texlive-most tesclive-bin &lt;span class=&#34;c1&#34;&gt;# Manjaro and Arch like machines&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Install Texmaker&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A cross-platform open source LaTeX editor. To install it, go to the terminal and execute this command:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo apt install texmaker &lt;span class=&#34;c1&#34;&gt;# Ubuntu and Debian like machines&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo pacman -Syyu texmaker &lt;span class=&#34;c1&#34;&gt;# Manjaro and Arch like machines&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Creat first document&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Open Texmaker and click on File, New. Then put the following code:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;\documentclass{article}
+\begin{document}
+    Hello, world!
+\end{document}
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Now save the document as a tex file going to File, Save. Finally, compile the document clicking on Tools, PDFLaTeX. Make sure the PDF file has been created and it&amp;rsquo;s working. And that&amp;rsquo;s it! You&amp;rsquo;ve created your first LaTeX document!&lt;/p&gt;
+&lt;h2 id=&#34;example-of-using-latex&#34;&gt;Example of using Latex&lt;/h2&gt;
+&lt;p&gt;Input to LaTeX and the corresponding output from the system:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;\documentclass{article} % Starts an article 
+\usepackage{amsmath} % Imports amsmath
+\title{\LaTeX} % Title,
+\begin{document} % Begins a document,
+\maketitle,
+\LaTeX{} is a document preparation system for,the \TeX{} typesetting program. It offers,programmable desktop publishing features and,extensive facilities for automating most,aspects of typesetting and desktop publishing,,including numbering and,cross-referencing,,tables and figures, page layout,,bibliographies, and much more. \LaTeX{} was,originally written in 1984 by Leslie Lamport,and has become the,dominant method for using, \TeX; few people write in plain \TeX{} anymore.,The current version is \LaTeXe.,% This is a comment, not shown in final output.,% The following shows typesetting,power of LaTeX:,\begin{align},E_0 &amp;amp;= mc^2 \\,E &amp;amp;= \frac{mc^2}{\sqrt{1-\frac{v^2}{c^2}}},\end{align},\end{document} 
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/LaTeX_example.svg/744px-LaTeX_example.svg.png&#34; alt=&#34;latex&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Last Week Task</title>
+      <link>https://maabedelhay.github.io/post/third-step/lastweek-post/</link>
+      <pubDate>Wed, 11 May 2022 17:33:35 +0300</pubDate>
+      <guid>https://maabedelhay.github.io/post/third-step/lastweek-post/</guid>
+      <description>&lt;h1 id=&#34;last-week-was-all-about-solving-lab-5-and-customizing-the-site-as-a-step-2-of-individual-project&#34;&gt;Last week was all about solving lab 5 and customizing the site as a step 2 of individual project.&lt;/h1&gt;
+&lt;h1 id=&#34;overview&#34;&gt;Overview&lt;/h1&gt;
+&lt;p&gt;Add personal information to the site plus made two posts one of them was about the &lt;a href=&#34;https://maabedelhay.github.io/post/first-step/first-step/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;first week&lt;/a&gt; and the second about &lt;a href=&#34;https://maabedelhay.github.io/post/git-post/git-version-control/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;version control GIT&lt;/a&gt;.&lt;/p&gt;
+&lt;h1 id=&#34;completing-the-tasks&#34;&gt;Completing the tasks&lt;/h1&gt;
+&lt;h2 id=&#34;adding-personal-information&#34;&gt;Adding personal Information&lt;/h2&gt;
+&lt;p&gt;Adde short biography, University name and profile picture.&lt;/p&gt;
+&lt;h2 id=&#34;post-about-first-week&#34;&gt;Post about first week&lt;/h2&gt;
+&lt;p&gt;Described the required tasks and how i completed them.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://maabedelhay.github.io/post/first-step/first-step/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Link for the post&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;post-about-version-control-git&#34;&gt;Post about version control GIT&lt;/h2&gt;
+&lt;p&gt;Definition of version control and how to use it and some of the popular git command.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://maabedelhay.github.io/post/git-post/git-version-control/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Link for the post&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;post-on-bash-script&#34;&gt;Post on bash script&lt;/h1&gt;
+&lt;p&gt;Added a post on a simple bash script that i wrote for automating the deployment process.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://maabedelhay.github.io/post/autodeploy-script/bash-deploy/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Link for the post&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
