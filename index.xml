@@ -5,12 +5,69 @@
     <link>https://maabedelhay.github.io/</link>
       <atom:link href="https://maabedelhay.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description></description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 11 May 2022 18:01:15 +0300</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 18 May 2022 21:05:25 +0300</lastBuildDate>
     <image>
       <url>https://maabedelhay.github.io/media/icon_hu98ef5755a27b69a18f879b9391920e5a_85803_512x512_fill_lanczos_center_3.png</url>
       <title></title>
       <link>https://maabedelhay.github.io/</link>
     </image>
+    
+    <item>
+      <title>Report Formating</title>
+      <link>https://maabedelhay.github.io/post/report-formating/</link>
+      <pubDate>Wed, 18 May 2022 21:05:25 +0300</pubDate>
+      <guid>https://maabedelhay.github.io/post/report-formating/</guid>
+      <description>&lt;h1 id=&#34;in-this-post-i-will-tackle-the-process-of-completing-a-report&#34;&gt;In this post i will tackle the process of Completing a report&lt;/h1&gt;
+&lt;h1 id=&#34;overview&#34;&gt;Overview&lt;/h1&gt;
+&lt;p&gt;As a student reporting my work on the labs are as important as solving the associated tasks. The report not only shows that i had completed the tasks. But also reflect my understanding of the tasks.&lt;/p&gt;
+&lt;h1 id=&#34;report-criteria&#34;&gt;Report criteria&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;The presence of the the report is the first condition.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Reporrt format :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;pdf&lt;/li&gt;
+&lt;li&gt;markdown&lt;/li&gt;
+&lt;li&gt;docx&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Screenshots&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Links&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Report writen in a structured form&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Completion of all tasks&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;These are the required component of  
+  &lt;i class=&#34;fas fa-grin-stars  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 5 stars report.&lt;/p&gt;
+&lt;h1 id=&#34;what-is-pandoc&#34;&gt;What is pandoc?&lt;/h1&gt;
+&lt;p&gt;Pandoc is a open-source document converter. I write the report in markdown language and using pando, latex and a Make configuration it produce two other reports in two other formats (pdf/docx).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Last Week Task</title>
+      <link>https://maabedelhay.github.io/post/forth-step/lastweek/</link>
+      <pubDate>Wed, 18 May 2022 20:51:46 +0300</pubDate>
+      <guid>https://maabedelhay.github.io/post/forth-step/lastweek/</guid>
+      <description>&lt;h1 id=&#34;last-week-task-had-me-to-add-three-section-to-the-site-skills-experience-accomplishments&#34;&gt;Last week task had me to add three section to the site (skills, experience, accomplishments)&lt;/h1&gt;
+&lt;h1 id=&#34;overview&#34;&gt;Overview&lt;/h1&gt;
+&lt;p&gt;As i mentioned earlier the site now have three new sections which made the site more personalise. Have a bigger view of who i am.&lt;/p&gt;
+&lt;h1 id=&#34;completing-the-task&#34;&gt;Completing The Task&lt;/h1&gt;
+&lt;p&gt;The steps to make these changes are very simple. Every section in the site have page in markdown associated to it in the home directory. For example when i wished to add my skills.&lt;/p&gt;
+&lt;p&gt;I headed to content/home/skills.md modified the content and rebuilt the site. Same steps for the other two sections&lt;/p&gt;
+&lt;p&gt;That&amp;rsquo;s it for the last week task.&lt;/p&gt;
+&lt;p&gt;Thanks.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Latex- A document preparation system </title>
