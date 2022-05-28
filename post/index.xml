@@ -5,12 +5,79 @@
     <link>https://maabedelhay.github.io/post/</link>
       <atom:link href="https://maabedelhay.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 18 May 2022 21:05:25 +0300</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 28 May 2022 22:09:30 +0300</lastBuildDate>
     <image>
       <url>https://maabedelhay.github.io/media/icon_hu98ef5755a27b69a18f879b9391920e5a_85803_512x512_fill_lanczos_center_3.png</url>
       <title>Posts</title>
       <link>https://maabedelhay.github.io/post/</link>
     </image>
+    
+    <item>
+      <title>Scientific programming languages</title>
+      <link>https://maabedelhay.github.io/post/scientific/</link>
+      <pubDate>Sat, 28 May 2022 22:09:30 +0300</pubDate>
+      <guid>https://maabedelhay.github.io/post/scientific/</guid>
+      <description>&lt;h1 id=&#34;overview&#34;&gt;Overview&lt;/h1&gt;
+&lt;p&gt;a scientific programming language is one that is designed and optimized for the use of mathematical formula and matrices. Such languages are characterized not only by the availability of libraries performing mathematical or scientific functions, but by the syntax of the language itself. For example, neither C++ nor Python have built-in matrix types or functions for matrix arithmetic (addition, multiplication etc); instead, this functionality is made available through standard libraries.&lt;/p&gt;
+&lt;h2 id=&#34;top-scientific-programming-languages&#34;&gt;Top scientific programming languages&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Python&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Python is a general purpose popular programming language. Learning Python opens up doors not only in data science, but also in web and software development.&lt;/p&gt;
+&lt;p&gt;Python is an open source object-oriented programming language, grouping data and functions together for flexibility and composability. In data science, it&amp;rsquo;s commonly for data processing, implementing data analytics algorithms, and training machine learning and deep learning algorithms. Python supports multiple data structures and uses a plain English syntax, making it a great language for beginner programmers&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;R&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;While Python is general purpose, R is more specialized, suitable for statistical analysis and intuitive visualizations.
+R is built to handle massive data sets and complex processing through RStudio. Its statistics-specific syntax is intuitive for researchers with statistics backgrounds, and powerful visualizations offer more intuitive communication of results.&lt;/p&gt;
+&lt;p&gt;When to use R in data science: Data scientists with some programming experience or beginning data scientists looking to make a mark in the research field should consider learning R. If you have experience as a statistician, you&amp;rsquo;ll also recognize the structure of R&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;C/C++&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Learning C/C++ offers excellent capabilities for building statistical and data tools. These will translate well to Python and scale well for performance-based applications.&lt;/p&gt;
+&lt;p&gt;C/C++ is also surprisingly useful because it compiles data quickly. It builds highly functional tools and allows for serious fine-tuning. It can be complicated to pick up if you&amp;rsquo;ve never studied programming languages before.&lt;/p&gt;
+&lt;p&gt;When to use C/C++ in data science: Web developers with experience in low-level languages could use C/C++ for scalable projects.&lt;/p&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;MATLAB&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;MATLAB is a programming language and environment specific to mathematical and statistical computing. It offers built-in tools for dynamic visualizations and offers users a deep learning toolbox that transitions well. It allows you to ease challenging mathematical processes.&lt;/p&gt;
+&lt;p&gt;It scales well and provides built-in graphics for custom plot points and visualizations. You frequently see MATLAB in teaching contexts to train things like linear algebra or numerical analysis. If you&amp;rsquo;re carrying out complex mathematical processes, MATLAB can be very useful. However, it&amp;rsquo;s not free, and Python now has multiple options that mimic MATLAB.&lt;/p&gt;
+&lt;p&gt;When to use MATLAB in data science: If you&amp;rsquo;re in academia or your workplace is already using the environment, you have good reason to invest time into learning MATLAB.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Lst Week Task</title>
+      <link>https://maabedelhay.github.io/post/step5/</link>
+      <pubDate>Sat, 28 May 2022 21:59:51 +0300</pubDate>
+      <guid>https://maabedelhay.github.io/post/step5/</guid>
+      <description>&lt;h1 id=&#34;added-inks-to-academic-and-research-sites&#34;&gt;Added inks to academic and research sites&lt;/h1&gt;
+&lt;h1 id=&#34;overview&#34;&gt;Overview&lt;/h1&gt;
+&lt;p&gt;In the the last week task i added a section for links. in the section i added links for&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;eLibrary&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Google Scholar&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ORCID&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Mendeley&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ResearchGate&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;arXiv&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;completing-the-task&#34;&gt;Completing the Task&lt;/h1&gt;
+&lt;p&gt;I registered in the sites and added the links to section named links. the section is before the contact section.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Report Formating</title>

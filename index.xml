@@ -5,12 +5,79 @@
     <link>https://maabedelhay.github.io/</link>
       <atom:link href="https://maabedelhay.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description></description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 18 May 2022 21:05:25 +0300</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 28 May 2022 22:09:30 +0300</lastBuildDate>
     <image>
       <url>https://maabedelhay.github.io/media/icon_hu98ef5755a27b69a18f879b9391920e5a_85803_512x512_fill_lanczos_center_3.png</url>
       <title></title>
       <link>https://maabedelhay.github.io/</link>
     </image>
+    
+    <item>
+      <title>Scientific programming languages</title>
+      <link>https://maabedelhay.github.io/post/scientific/</link>
+      <pubDate>Sat, 28 May 2022 22:09:30 +0300</pubDate>
+      <guid>https://maabedelhay.github.io/post/scientific/</guid>
+      <description>&lt;h1 id=&#34;overview&#34;&gt;Overview&lt;/h1&gt;
+&lt;p&gt;a scientific programming language is one that is designed and optimized for the use of mathematical formula and matrices. Such languages are characterized not only by the availability of libraries performing mathematical or scientific functions, but by the syntax of the language itself. For example, neither C++ nor Python have built-in matrix types or functions for matrix arithmetic (addition, multiplication etc); instead, this functionality is made available through standard libraries.&lt;/p&gt;
+&lt;h2 id=&#34;top-scientific-programming-languages&#34;&gt;Top scientific programming languages&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Python&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Python is a general purpose popular programming language. Learning Python opens up doors not only in data science, but also in web and software development.&lt;/p&gt;
+&lt;p&gt;Python is an open source object-oriented programming language, grouping data and functions together for flexibility and composability. In data science, it&amp;rsquo;s commonly for data processing, implementing data analytics algorithms, and training machine learning and deep learning algorithms. Python supports multiple data structures and uses a plain English syntax, making it a great language for beginner programmers&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;R&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;While Python is general purpose, R is more specialized, suitable for statistical analysis and intuitive visualizations.
+R is built to handle massive data sets and complex processing through RStudio. Its statistics-specific syntax is intuitive for researchers with statistics backgrounds, and powerful visualizations offer more intuitive communication of results.&lt;/p&gt;
+&lt;p&gt;When to use R in data science: Data scientists with some programming experience or beginning data scientists looking to make a mark in the research field should consider learning R. If you have experience as a statistician, you&amp;rsquo;ll also recognize the structure of R&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;C/C++&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Learning C/C++ offers excellent capabilities for building statistical and data tools. These will translate well to Python and scale well for performance-based applications.&lt;/p&gt;
+&lt;p&gt;C/C++ is also surprisingly useful because it compiles data quickly. It builds highly functional tools and allows for serious fine-tuning. It can be complicated to pick up if you&amp;rsquo;ve never studied programming languages before.&lt;/p&gt;
+&lt;p&gt;When to use C/C++ in data science: Web developers with experience in low-level languages could use C/C++ for scalable projects.&lt;/p&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;MATLAB&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;MATLAB is a programming language and environment specific to mathematical and statistical computing. It offers built-in tools for dynamic visualizations and offers users a deep learning toolbox that transitions well. It allows you to ease challenging mathematical processes.&lt;/p&gt;
+&lt;p&gt;It scales well and provides built-in graphics for custom plot points and visualizations. You frequently see MATLAB in teaching contexts to train things like linear algebra or numerical analysis. If you&amp;rsquo;re carrying out complex mathematical processes, MATLAB can be very useful. However, it&amp;rsquo;s not free, and Python now has multiple options that mimic MATLAB.&lt;/p&gt;
+&lt;p&gt;When to use MATLAB in data science: If you&amp;rsquo;re in academia or your workplace is already using the environment, you have good reason to invest time into learning MATLAB.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Lst Week Task</title>
+      <link>https://maabedelhay.github.io/post/step5/</link>
+      <pubDate>Sat, 28 May 2022 21:59:51 +0300</pubDate>
+      <guid>https://maabedelhay.github.io/post/step5/</guid>
+      <description>&lt;h1 id=&#34;added-inks-to-academic-and-research-sites&#34;&gt;Added inks to academic and research sites&lt;/h1&gt;
+&lt;h1 id=&#34;overview&#34;&gt;Overview&lt;/h1&gt;
+&lt;p&gt;In the the last week task i added a section for links. in the section i added links for&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;eLibrary&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Google Scholar&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ORCID&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Mendeley&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ResearchGate&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;arXiv&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;completing-the-task&#34;&gt;Completing the Task&lt;/h1&gt;
+&lt;p&gt;I registered in the sites and added the links to section named links. the section is before the contact section.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Report Formating</title>
@@ -450,24 +517,127 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>Example Project</title>
-      <link>https://maabedelhay.github.io/project/example/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://maabedelhay.github.io/project/example/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title></title>
       <link>https://maabedelhay.github.io/admin/config.yml</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://maabedelhay.github.io/admin/config.yml</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Individual Project</title>
+      <link>https://maabedelhay.github.io/project/example/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://maabedelhay.github.io/project/example/</guid>
+      <description>&lt;h1 id=&#34;overview&#34;&gt;Overview&lt;/h1&gt;
+&lt;p&gt;The project goal is to make a personal site hosted on the internet. The three main components of this site are Hugo static site generator and wowchemy Academic template and GitHub hosting.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;maabedelhay.github.io&#34; srcset=&#34;
+               /project/example/site_hu214936b97d499b36bce44013a630f801_334797_81a6147c8cb1d43ed694272261201933.webp 400w,
+               /project/example/site_hu214936b97d499b36bce44013a630f801_334797_eff89417b44e23a31702e49176deef91.webp 760w,
+               /project/example/site_hu214936b97d499b36bce44013a630f801_334797_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://maabedelhay.github.io/project/example/site_hu214936b97d499b36bce44013a630f801_334797_81a6147c8cb1d43ed694272261201933.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;381&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;The site home page contains my profile picture, biography, information about education, skills, experience and my posts.&lt;/p&gt;
+&lt;h2 id=&#34;hugo&#34;&gt;Hugo&lt;/h2&gt;
+&lt;p&gt;A static site generator takes your content, applies it to a template, and generates an HTML based static site. It’s excellent for blogs and landing pages.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Benefits:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Quick deployment&lt;/li&gt;
+&lt;li&gt;Secure (no dynamic content)&lt;/li&gt;
+&lt;li&gt;Fast load times&lt;/li&gt;
+&lt;li&gt;Simple usage&lt;/li&gt;
+&lt;li&gt;Version control&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;To start with Hugo first i downloaded the &lt;a href=&#34;https://github.com/gohugoio/hugo/releases&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;last version&lt;/a&gt; of Hugo. Then i created a new repository cloned from Wowchemy academic template. After cloning the repository and creating a new repository to host the site. I generated the site using Hugo.&lt;/p&gt;
+&lt;h2 id=&#34;wowchemy&#34;&gt;Wowchemy&lt;/h2&gt;
+&lt;p&gt;The Wowchemy Hugo academic template help to create  the site and supply the neded file to us so we can customize it and work on it.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;s&#34; srcset=&#34;
+               /project/example/wowchemy_hub4adde2c19dc98c565e41197d4cf542c_212147_1b9959dd88e32cce2043efd89e7cabe0.webp 400w,
+               /project/example/wowchemy_hub4adde2c19dc98c565e41197d4cf542c_212147_e40636ec62be6f025e22c4e1f38e8e34.webp 760w,
+               /project/example/wowchemy_hub4adde2c19dc98c565e41197d4cf542c_212147_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://maabedelhay.github.io/project/example/wowchemy_hub4adde2c19dc98c565e41197d4cf542c_212147_1b9959dd88e32cce2043efd89e7cabe0.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;381&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Simply cloned the &lt;a href=&#34;https://github.com/maabedelhay/starter-hugo-academic&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;template&lt;/a&gt; as a new repository.&lt;/p&gt;
+&lt;h2 id=&#34;github&#34;&gt;Github&lt;/h2&gt;
+&lt;p&gt;GitHub free hosting is the main allowed us to host the site on the internet. by creating a repository in the form of username.github.io. In this repository the coded of the site.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;s&#34; srcset=&#34;
+               /project/example/github-io_huce8f4dab4316aff6ba0270a3a4d874b9_124884_19f499a04e3d6f7e70ec5647f3596f05.webp 400w,
+               /project/example/github-io_huce8f4dab4316aff6ba0270a3a4d874b9_124884_ec8a37ccc291f7342849fd51c4752166.webp 760w,
+               /project/example/github-io_huce8f4dab4316aff6ba0270a3a4d874b9_124884_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://maabedelhay.github.io/project/example/github-io_huce8f4dab4316aff6ba0270a3a4d874b9_124884_19f499a04e3d6f7e70ec5647f3596f05.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;381&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;this-project-helped-me-to-understand-how-github-hosting-work-how-important-to-have-a-personal-blog-that-push-you-to-post-your-work-and-ideas&#34;&gt;This project helped me to understand how GitHub hosting work. How important to have a personal blog that push you to post your work and ideas.&lt;/h2&gt;
+</description>
     </item>
     
   </channel>
