@@ -1,0 +1,648 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <link>https://maabedelhay.github.io/ru/</link>
+      <atom:link href="https://maabedelhay.github.io/ru/index.xml" rel="self" type="application/rss+xml" />
+    <description></description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>ru</language><lastBuildDate>Sat, 28 May 2022 22:09:30 +0300</lastBuildDate>
+    <image>
+      <url>https://maabedelhay.github.io/media/icon_hu98ef5755a27b69a18f879b9391920e5a_85803_512x512_fill_lanczos_center_3.png</url>
+      <title></title>
+      <link>https://maabedelhay.github.io/ru/</link>
+    </image>
+    
+    <item>
+      <title>Научные языки программирования</title>
+      <link>https://maabedelhay.github.io/ru/post/scientific/</link>
+      <pubDate>Sat, 28 May 2022 22:09:30 +0300</pubDate>
+      <guid>https://maabedelhay.github.io/ru/post/scientific/</guid>
+      <description>&lt;h1 id=&#34;обзор&#34;&gt;Обзор&lt;/h1&gt;
+&lt;p&gt;научный язык программирования — это язык, разработанный и оптимизированный для использования математических формул и матриц. Такие языки характеризуются не только наличием библиотек, выполняющих математические или научные функции, но и синтаксисом самого языка. Например, ни в C++, ни в Python нет встроенных типов матриц или функций для матричной арифметики (сложение, умножение и т. д.); вместо этого эта функциональность доступна через стандартные библиотеки.&lt;/p&gt;
+&lt;h2 id=&#34;лучшие-научные-языки-программирования&#34;&gt;Лучшие научные языки программирования&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Питон&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Python — популярный язык программирования общего назначения. Изучение Python открывает двери не только в науке о данных, но и в веб-разработке и разработке программного обеспечения.&lt;/p&gt;
+&lt;p&gt;Python — это объектно-ориентированный язык программирования с открытым исходным кодом, объединяющий данные и функции для обеспечения гибкости и возможности компоновки. В науке о данных это обычно для обработки данных, реализации алгоритмов анализа данных и обучения алгоритмов машинного обучения и глубокого обучения. Python поддерживает несколько структур данных и использует простой английский синтаксис, что делает его отличным языком для начинающих программистов.&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Р&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;В то время как Python является универсальным, R является более специализированным, подходящим для статистического анализа и интуитивно понятных визуализаций.
+R создан для обработки больших наборов данных и сложной обработки с помощью RStudio. Его синтаксис, относящийся к статистике, интуитивно понятен для исследователей, имеющих опыт работы со статистикой, а мощные средства визуализации обеспечивают более интуитивно понятную передачу результатов.&lt;/p&gt;
+&lt;p&gt;Когда использовать R в науке о данных: специалисты по данным, имеющие некоторый опыт программирования, или начинающие специалисты по данным, желающие добиться успеха в области исследований, должны рассмотреть возможность изучения R. Если у вас есть опыт работы статистиком, вы также узнаете структуру R.&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;С/С++&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Изучение C/C++ предлагает отличные возможности для создания статистических инструментов и инструментов обработки данных. Они будут хорошо транслироваться на Python и хорошо масштабироваться для приложений, ориентированных на производительность.&lt;/p&gt;
+&lt;p&gt;C/C++ также удивительно полезен, потому что он быстро компилирует данные. Он создает высокофункциональные инструменты и позволяет проводить серьезную тонкую настройку. Это может быть сложно понять, если вы никогда раньше не изучали языки программирования.&lt;/p&gt;
+&lt;p&gt;Когда использовать C/C++ в науке о данных: веб-разработчики, имеющие опыт работы с языками низкого уровня, могут использовать C/C++ для масштабируемых проектов.&lt;/p&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;МАТЛАБ&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;MATLAB — это язык программирования и среда, предназначенная для математических и статистических вычислений. Он предлагает встроенные инструменты для динамической визуализации и предлагает пользователям набор инструментов для глубокого обучения, который хорошо адаптируется. Это позволяет упростить сложные математические процессы.&lt;/p&gt;
+&lt;p&gt;Он хорошо масштабируется и предоставляет встроенную графику для пользовательских точек графика и визуализаций. Вы часто видите MATLAB в учебных контекстах для обучения таким вещам, как линейная алгебра или численный анализ. Если вы выполняете сложные математические процессы, MATLAB может быть очень полезен. Однако это не бесплатно, и теперь у Python есть несколько опций, имитирующих MATLAB.&lt;/p&gt;
+&lt;p&gt;Когда использовать MATLAB в науке о данных: если вы работаете в академических кругах или на вашем рабочем месте уже используется среда, у вас есть веская причина потратить время на изучение MATLAB.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Lфst Week Task</title>
+      <link>https://maabedelhay.github.io/ru/post/step5/</link>
+      <pubDate>Sat, 28 May 2022 21:59:51 +0300</pubDate>
+      <guid>https://maabedelhay.github.io/ru/post/step5/</guid>
+      <description>&lt;h1 id=&#34;добавлены-чернила-на-академические-и-исследовательские-сайты&#34;&gt;Добавлены чернила на академические и исследовательские сайты&lt;/h1&gt;
+&lt;h1 id=&#34;обзор&#34;&gt;Обзор&lt;/h1&gt;
+&lt;p&gt;В задаче прошлой недели я добавил раздел для ссылок. в разделе я добавил ссылки для&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;электронная библиотека&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Google ученый&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ОРЦИД&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Менделей&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Исследовательские ворота&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;arXiv&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;завершение-задачи&#34;&gt;Завершение задачи&lt;/h1&gt;
+&lt;p&gt;Я зарегистрировался на сайтах и добавил ссылки в раздел с названием links. раздел находится перед контактным разделом.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Форматирование отчета</title>
+      <link>https://maabedelhay.github.io/ru/post/report-formating/</link>
+      <pubDate>Wed, 18 May 2022 21:05:25 +0300</pubDate>
+      <guid>https://maabedelhay.github.io/ru/post/report-formating/</guid>
+      <description>&lt;h1 id=&#34;в-этом-посте-я-расскажу-о-процессе-заполнения-отчета&#34;&gt;В этом посте я расскажу о процессе заполнения отчета&lt;/h1&gt;
+&lt;h1 id=&#34;обзор&#34;&gt;Обзор&lt;/h1&gt;
+&lt;p&gt;Для студента отчет о моей работе в лаборатории так же важен, как и решение связанных задач. Отчет не только показывает, что я выполнил задачи. Но также отражают мое понимание задач.&lt;/p&gt;
+&lt;h1 id=&#34;критерии-отчета&#34;&gt;Критерии отчета&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Наличие отчета - первое условие.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Формат отчета:&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;пдф&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;уценка&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;документ&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Скриншоты&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Ссылки&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Отчет написан в структурированной форме&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Выполнение всех заданий&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Это обязательный компонент отчета 
+  &lt;i class=&#34;fas fa-grin-stars  pr-1 fa-fw&#34;&gt;&lt;/i&gt; с 5 звездами.&lt;/p&gt;
+&lt;h1 id=&#34;что-такое-пандок&#34;&gt;Что такое пандок?&lt;/h1&gt;
+&lt;p&gt;Pandoc — конвертер документов с открытым исходным кодом. Я пишу отчет на языке уценки, и с помощью pando, латекса и конфигурации Make он создает два других отчета в двух других форматах (pdf/docx).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Задание прошлой недели</title>
+      <link>https://maabedelhay.github.io/ru/post/forth-step/lastweek/</link>
+      <pubDate>Wed, 18 May 2022 20:51:46 +0300</pubDate>
+      <guid>https://maabedelhay.github.io/ru/post/forth-step/lastweek/</guid>
+      <description>&lt;h1 id=&#34;на-прошлой-неделе-передо-мной-стояла-задача-добавить-на-сайт-три-раздела-навыки-опыт-достижения&#34;&gt;На прошлой неделе передо мной стояла задача добавить на сайт три раздела (навыки, опыт, достижения)&lt;/h1&gt;
+&lt;h1 id=&#34;обзор&#34;&gt;Обзор&lt;/h1&gt;
+&lt;p&gt;Как я упоминал ранее, на сайте теперь есть три новых раздела, которые сделали сайт более персонализированным. Имейте более широкое представление о том, кто я.&lt;/p&gt;
+&lt;h1 id=&#34;завершение-задачи&#34;&gt;Завершение задачи&lt;/h1&gt;
+&lt;p&gt;Шаги для внесения этих изменений очень просты. У каждого раздела на сайте есть страница в уценке, связанная с ним в домашнем каталоге. Например, когда я хотел добавить свои навыки.&lt;/p&gt;
+&lt;p&gt;Я направился на content/home/skills.md, изменил содержимое и переделал сайт. Те же действия для двух других разделов&lt;/p&gt;
+&lt;p&gt;Вот и все задание прошлой недели.&lt;/p&gt;
+&lt;p&gt;Спасибо.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Latex- система подготовки документов</title>
+      <link>https://maabedelhay.github.io/ru/post/latex/latex-post/</link>
+      <pubDate>Wed, 11 May 2022 18:01:15 +0300</pubDate>
+      <guid>https://maabedelhay.github.io/ru/post/latex/latex-post/</guid>
+      <description>&lt;h1 id=&#34;latex-is-a-free-software-package--used-for-typesetting-technical-documents&#34;&gt;LaTeX is a free software package  used for typesetting technical documents.&lt;/h1&gt;
+&lt;hr&gt;
+&lt;p&gt;LAtex имеет возможность набирать технические документы, содержащие сложные математические уравнения. Эта функция сделала LaTeX популярным среди ученых и инженеров.&lt;/p&gt;
+&lt;p&gt;LaTeX можно использовать как самостоятельную систему подготовки документов или как промежуточный формат. Например, в последней роли он иногда используется как часть конвейера для перевода DocBook и других форматов на основе XML в PDF.&lt;/p&gt;
+&lt;h2 id=&#34;как-установить&#34;&gt;Как установить?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Установить TexLive&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;В командной строке напишите&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo apt install tex-live-full &lt;span class=&#34;c1&#34;&gt;# Ubuntu and Debian like machines&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo pacman -Syyu texlive-most tesclive-bin &lt;span class=&#34;c1&#34;&gt;# Manjaro and Arch like machines&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Установить Тексмейкер&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Кроссплатформенный редактор LaTeX с открытым исходным кодом. Чтобы установить его, перейдите в терминал и выполните эту команду:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo apt install texmaker &lt;span class=&#34;c1&#34;&gt;# Ubuntu and Debian like machines&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo pacman -Syyu texmaker &lt;span class=&#34;c1&#34;&gt;# Manjaro and Arch like machines&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Создать первый документ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Откройте Texmaker и нажмите «Файл», «Создать». Затем введите следующий код:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;\documentclass{article}
+\begin{document}
+    Hello, world!
+\end{document}
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Теперь сохраните документ как текстовый файл, выбрав «Файл», «Сохранить». Наконец, скомпилируйте документ, нажав Tools, PDFLaTeX. Убедитесь, что файл PDF создан и работает. Вот и все! Вы создали свой первый документ LaTeX!&lt;/p&gt;
+&lt;h2 id=&#34;пример-использования-латекса&#34;&gt;Пример использования латекса&lt;/h2&gt;
+&lt;p&gt;Ввод в LaTeX и соответствующий вывод из системы:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;\documentclass{article} % Starts an article 
+\usepackage{amsmath} % Imports amsmath
+\title{\LaTeX} % Title,
+\begin{document} % Begins a document,
+\maketitle,
+\LaTeX{} is a document preparation system for,the \TeX{} typesetting program. It offers,programmable desktop publishing features and,extensive facilities for automating most,aspects of typesetting and desktop publishing,,including numbering and,cross-referencing,,tables and figures, page layout,,bibliographies, and much more. \LaTeX{} was,originally written in 1984 by Leslie Lamport,and has become the,dominant method for using, \TeX; few people write in plain \TeX{} anymore.,The current version is \LaTeXe.,% This is a comment, not shown in final output.,% The following shows typesetting,power of LaTeX:,\begin{align},E_0 &amp;amp;= mc^2 \\,E &amp;amp;= \frac{mc^2}{\sqrt{1-\frac{v^2}{c^2}}},\end{align},\end{document} 
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/LaTeX_example.svg/744px-LaTeX_example.svg.png&#34; alt=&#34;latex&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Задание прошлой недели</title>
+      <link>https://maabedelhay.github.io/ru/post/third-step/lastweek-post/</link>
+      <pubDate>Wed, 11 May 2022 17:33:35 +0300</pubDate>
+      <guid>https://maabedelhay.github.io/ru/post/third-step/lastweek-post/</guid>
+      <description>&lt;h1 id=&#34;на-прошлой-неделе-мы-решили-выполнить-лабораторную-работу-5-и-настроить-сайт-как-шаг-2-отдельного-проекта&#34;&gt;На прошлой неделе мы решили выполнить лабораторную работу 5 и настроить сайт как шаг 2 отдельного проекта.&lt;/h1&gt;
+&lt;h1 id=&#34;обзор&#34;&gt;Обзор&lt;/h1&gt;
+&lt;p&gt;Добавьте личную информацию на сайт плюс сделал два поста, один из них был о &lt;a href=&#34;https://maabedelhay.github.io/post/first-step/first-step/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;первой неделе&lt;/a&gt;, а второй о &lt;a href=&#34;https://maabedelhay.github.io/post/git-post/git-version-control/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;контроле версий GIT &lt;/a&gt;.&lt;/p&gt;
+&lt;h1 id=&#34;выполнение-задач&#34;&gt;Выполнение задач&lt;/h1&gt;
+&lt;h2 id=&#34;добавление-личной-информации&#34;&gt;Добавление личной информации&lt;/h2&gt;
+&lt;p&gt;Добавьте краткую биографию, название университета и фотографию профиля.&lt;/p&gt;
+&lt;h2 id=&#34;сообщение-о-первой-неделе&#34;&gt;Сообщение о первой неделе&lt;/h2&gt;
+&lt;p&gt;Описал необходимые задачи и то, как я их выполнил.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://maabedelhay.github.io/post/first-step/first-step/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ссылка на пост&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;сообщение-о-контроле-версий-git&#34;&gt;Сообщение о контроле версий GIT&lt;/h2&gt;
+&lt;p&gt;Определение контроля версий и как его использовать, а также некоторые популярные команды git.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://maabedelhay.github.io/post/git-post/git-version-control/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ссылка на пост&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;опубликовать-в-bash-скрипте&#34;&gt;Опубликовать в bash-скрипте&lt;/h1&gt;
+&lt;p&gt;Добавлен пост о простом сценарии bash, который я написал для автоматизации процесса развертывания.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://maabedelhay.github.io/post/autodeploy-script/bash-deploy/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ссылка на пост&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Автоматизация развертывания с помощью сценария Bash</title>
+      <link>https://maabedelhay.github.io/ru/post/autodeploy-script/bash-deploy/</link>
+      <pubDate>Sat, 07 May 2022 13:28:34 +0300</pubDate>
+      <guid>https://maabedelhay.github.io/ru/post/autodeploy-script/bash-deploy/</guid>
+      <description>&lt;h1 id=&#34;every-time-i-make-a-change-on-the-site-i-need-to-go-through-set-of-repeated-commands-so-i-decided-to-make-a-simple-bash-script-to-automate-the-task&#34;&gt;Every time I make a change on the site I need to go through set of repeated commands. So I decided to make a simple bash script to automate the task.&lt;/h1&gt;
+ &lt;img src=&#34;https://camo.githubusercontent.com/a7de91b915d8b286dda762e3683d9a1c961692d43f8349d020ecd54634a823cf/68747470733a2f2f63646e2e7261776769742e636f6d2f6f64622f6f6666696369616c2d626173682d6c6f676f2f6d61737465722f6173736574732f4c6f676f732f4964656e746974792f504e472f424153485f6c6f676f2d7472616e73706172656e742d62672d636f6c6f722e706e67&#34; alt=&#34;failed&#34; &gt; 
+&lt;h2 id=&#34;что-такое-bash-скрипт&#34;&gt;Что такое bash-скрипт?&lt;/h2&gt;
+&lt;p&gt;Сценарий Bash — это текстовый файл, содержащий набор команд. Любую команду, которую можно выполнить в терминале, можно поместить в сценарий Bash. Любая серия команд, которые должны быть выполнены в терминале, может быть записана в текстовом файле в таком порядке, как сценарий Bash. Там он используется для автоматизации повторяющихся задач в файловой системе Linux. Для получения дополнительной информации [узнайте больше о bash] (&lt;a href=&#34;https://www.javatpoint.com/bash-scripting%29&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.javatpoint.com/bash-scripting)&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;развертывание-сайта&#34;&gt;Развертывание сайта&lt;/h2&gt;
+&lt;p&gt;Контент моего сайта находится в каталоге с именем blog/ . Он содержит файл уценки.&lt;/p&gt;
+&lt;p&gt;После редактирования файлов мне нужно отправить изменения в удаленный репозиторий.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ git add . 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ git commit -m &lt;span class=&#34;s2&#34;&gt;&amp;#34;message&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ git push -u origin main
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;blockquote&gt;
+&lt;p&gt;Обратите внимание, что моя ветка называется main, если вы не изменили ветку на main, вам нужно нажать на исходный мастер.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;После этого я запускаю &lt;code&gt;$ Hugo&lt;/code&gt; в каталоге. Это создаст файлы в каталоге с именем blog/public/. Теперь я меняю каталог на общедоступный и вношу изменения.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ git add . 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ git commit -m &lt;span class=&#34;s2&#34;&gt;&amp;#34;message&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ git push origin main
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;writing-the-program&#34;&gt;Writing the program&lt;/h2&gt;
+&lt;p&gt;Как мы видим, нам приходится повторять одни и те же команды каждый раз, когда мы хотим внести изменения на сайт. Давайте решим это с помощью bash-скрипта.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;#!/bin/bash
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34; &amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;read&lt;/span&gt; -e -p &lt;span class=&#34;s1&#34;&gt;&amp;#39;Enter commit: &amp;#39;&lt;/span&gt; -i &lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$message&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt; message
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34; &amp;#34;&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;Sending changes to remote..&amp;#34;&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34; &amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git add .
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git commit -m &lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$message&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git push -u origin main
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;  &amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;Building site... &amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34; &amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hugo
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34; &amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;Pushing directory public... &amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34; &amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; public
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git add .
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git commit -m &lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$message&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git push origin main
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34; &amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;All Done ;) &amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;blockquote&gt;
+&lt;p&gt;команда read запросит сообщение фиксации и сохранит введенное сообщение в переменную &lt;code&gt;$message&lt;/code&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;chmod +x deploy.sh
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;./deploy.sh
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Этот простой скрипт позволит нам развернуть изменения одним щелчком мыши.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Git Контроль Версий</title>
+      <link>https://maabedelhay.github.io/ru/post/git-post/git-version-control/</link>
+      <pubDate>Fri, 06 May 2022 10:58:11 +0300</pubDate>
+      <guid>https://maabedelhay.github.io/ru/post/git-post/git-version-control/</guid>
+      <description>&lt;h4 id=&#34;git--это-система-контроля-версий-которую-разработчики-используют-во-всем-мире-для-обмена-разрабатываемым-программным-обеспечением-это-помогает-вам-отслеживать-различные-версии-вашего-кода-и-сотрудничать-с-другими-разработчиками&#34;&gt;Git — это система контроля версий, которую разработчики используют во всем мире для обмена разрабатываемым программным обеспечением. Это помогает вам отслеживать различные версии вашего кода и сотрудничать с другими разработчиками.&lt;/h4&gt;
+ &lt;img src=&#34;https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Git-logo.svg/2000px-Git-logo.svg.png&#34; alt=&#34;failed&#34; &gt; 
+&lt;p&gt;Если вы работаете над проектом в течение долгого времени, вы можете захотеть отслеживать, какие изменения были внесены, кем и когда эти изменения были внесены. git позволит вам это сделать.&lt;/p&gt;
+&lt;h4 id=&#34;темы&#34;&gt;Темы:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Что такое гит ?&lt;/li&gt;
+&lt;li&gt;Как начать использовать Git ?&lt;/li&gt;
+&lt;li&gt;Распространенные команды в gi&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;что-такое-гит&#34;&gt;Что такое гит&lt;/h1&gt;
+&lt;hr&gt;
+&lt;p&gt;Это система контроля версий, которую вы загружаете на свой компьютер. Крайне важно, чтобы вы использовали Git, если хотите сотрудничать с другими разработчиками в проекте кодирования или работать над своим собственным проектом.&lt;/p&gt;
+&lt;p&gt;Чтобы проверить, установлен ли уже Git на вашем компьютере, вы можете ввести команду git &amp;ndash;version в терминале.&lt;/p&gt;
+&lt;p&gt;Если у вас уже установлен Git, вы увидите, какая у вас версия. Если у вас не установлен Git, вы можете загрузить его с веб-сайта, если вы используете Windows. Если вы используете Linux, загрузите его из менеджера пакетов. На пример&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ sudo install git &lt;span class=&#34;c1&#34;&gt;# Debian,Ubuntu, popOS ,Kali ..&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ sudo pacman -S git &lt;span class=&#34;c1&#34;&gt;# Arch , manjaro , garuda ..&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ sudo dnf install git &lt;span class=&#34;c1&#34;&gt;# redhat ,fedora ..&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;как-начать-использовать-git&#34;&gt;Как начать использовать Git&lt;/h1&gt;
+&lt;hr&gt;
+&lt;p&gt;создайте каталог для нового проекта &lt;code&gt;mkdir broject-name&lt;/code&gt;. Cоздайте файл README.md для примера. затем создайте каталог git, используя &lt;code&gt;git init&lt;/code&gt; .&lt;/p&gt;
+&lt;p&gt;репозиторий git — это папка &lt;strong&gt;.git&lt;/strong&gt; внутри папки нашего проекта. вы можете увидеть это, используя &lt;code&gt;ls -a&lt;/code&gt;. Он будет отслеживать все изменения, внесенные в файлы в нашем проекте, и записывать эту историю с течением времени. со временем вы отредактируете проект и сделаете коммит. внутри каталога .git вы можете используйте команду &lt;code&gt;git log&lt;/code&gt;, чтобы получить список всех коммитов в репозитории.&lt;/p&gt;
+&lt;h1 id=&#34;некоторые-команды-в-git&#34;&gt;Некоторые команды в git&lt;/h1&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;работа-с-локальным-репо&#34;&gt;Работа с локальным репо:&lt;/h2&gt;
+&lt;h3 id=&#34;git-init&#34;&gt;git init&lt;/h3&gt;
+&lt;p&gt;Команда превращает каталог в пустой репозиторий GIT. Это первый шаг в создании репозитория GIT. После этого мы можем добавить, зафиксировать и нажать.&lt;/p&gt;
+&lt;p&gt;использование:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ &lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; /Projects/new-dir
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ git init
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;git-add&#34;&gt;git add&lt;/h3&gt;
+&lt;p&gt;Это добавит файлы в репозиторий GIT. Существует несколько причин для его использования.&lt;/p&gt;
+&lt;p&gt;использование:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ git add . &lt;span class=&#34;c1&#34;&gt;# весь каталог&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ git add index.html &lt;span class=&#34;c1&#34;&gt;# конкретный файл&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;git-commit&#34;&gt;git commit&lt;/h3&gt;
+&lt;p&gt;Запишите изменения, внесенные в файлы, в локальный репозиторий. Для удобства каждый коммит имеет уникальный идентификатор.&lt;/p&gt;
+&lt;p&gt;использование:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ git commit -m &lt;span class=&#34;s2&#34;&gt;&amp;#34;My first commit&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;работа-с-удаленным-репо&#34;&gt;Работа с удаленным репо:&lt;/h2&gt;
+&lt;h3 id=&#34;git-remote&#34;&gt;git remote&lt;/h3&gt;
+&lt;p&gt;Для подключения локального репозитория к удаленному репозиторию. Удаленный репозиторий может иметь заданное имя, чтобы не запоминать URL-адрес репозитория.&lt;/p&gt;
+&lt;p&gt;использование:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ git remote add https://github.com/remote-repo-name 
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;git-clone&#34;&gt;git clone&lt;/h3&gt;
+&lt;p&gt;Чтобы создать локальную рабочую копию существующего удаленного репозитория, используйте git clone для копирования и загрузки репозитория на компьютер. Клонирование — это эквивалент git init при работе с удаленным репозиторием. Git создаст локальный каталог со всеми файлами и историей репозитория.&lt;/p&gt;
+&lt;p&gt;использование:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ git clone https://github.com/example-repo
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;git-pull&#34;&gt;git pull&lt;/h3&gt;
+&lt;p&gt;Чтобы получить последнюю версию репозитория, запустите git pull. Это перенесет изменения из удаленного репозитория на локальный компьютер.&lt;/p&gt;
+&lt;p&gt;использование:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ git pull https://github.com/your-repo
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;git-push&#34;&gt;git push&lt;/h3&gt;
+&lt;p&gt;Отправляет локальные коммиты в удаленный репозиторий. git push требует два параметра: удаленный репозиторий и ветку, для которой выполняется push.&lt;/p&gt;
+&lt;p&gt;использование:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ git push origin master &lt;span class=&#34;c1&#34;&gt;# master — это имя ветки по умолчанию в github.&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;вывод&#34;&gt;Вывод&lt;/h1&gt;
+&lt;hr&gt;
+&lt;p&gt;GIT определенно является одним из близких друзей разработчиков. Изучение GIT улучшит ваш рабочий процесс и повысит производительность. Это было небольшое введение в систему контроля версий GIT. О GIT можно рассказать еще очень много. Я настоятельно рекомендую узнать больше о GIT и его различных командах.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Первый шаг в индивидуальном проекте</title>
+      <link>https://maabedelhay.github.io/ru/post/first-step/first-step/</link>
+      <pubDate>Thu, 05 May 2022 22:00:08 +0300</pubDate>
+      <guid>https://maabedelhay.github.io/ru/post/first-step/first-step/</guid>
+      <description>&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/xDliIL-_vWo&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h1 id=&#34;обзор&#34;&gt;Обзор&lt;/h1&gt;
+&lt;p&gt;Цель состоит в том, чтобы разместить статический веб-сайт на github с использованием веб-генератора Hugo и шаблонов wowchemy, которые закладывают базовый шаблон для начала работы.&lt;/p&gt;
+&lt;h1 id=&#34;последовательность-работы&#34;&gt;Последовательность работы&lt;/h1&gt;
+&lt;h2 id=&#34;установка-hugo&#34;&gt;Установка hugo&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Сначала установил последнюю версию Hugo. Обратите внимание, что нам нужна версия .tar .&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/gohugoio/hugo/releases&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Установите hugo отсюда&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Затем переместил исполняемый файл Hugo в каталог inyo bin.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ mv hugo /usr/bin/
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;клонирование-шаблона&#34;&gt;Клонирование шаблона&lt;/h2&gt;
+&lt;p&gt;Я создал репо путем с использованием &lt;a href=&#34;https://github.com/wowchemy/starter-hugo-academic&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;starter-hugo-academic&lt;/a&gt; шаблон. Затем я клонировал репозиторий на свое устройство и назвал его блогом.&lt;/p&gt;
+&lt;h2 id=&#34;инициализация-hugo&#34;&gt;Инициализация hugo&lt;/h2&gt;
+&lt;p&gt;-Внутри каталога /blog я запустил сервер Hugo и Hugo.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ hugo
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ hugo server
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Это запустил сайт на локальном хосте&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;создать-репозиторий-сайта&#34;&gt;создать репозиторий сайта&lt;/h2&gt;
+&lt;p&gt;Я создал репозиторий и назвал его &lt;strong&gt;username.github.io&lt;/strong&gt; , например, &lt;strong&gt;maabedelhay.github.io&lt;/strong&gt; . Затем я клонировал его на свое устройство и внутри клонированного каталога.&lt;/p&gt;
+&lt;h2 id=&#34;push--в-main&#34;&gt;Push  в main&lt;/h2&gt;
+&lt;p&gt;Последний шаг — отправить все на github, чтобы увидеть сайт в прямом эфире!&lt;/p&gt;
+&lt;h1 id=&#34;вывод&#34;&gt;Вывод&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Точно так же у нас есть базовый личный сайт, размещенный на github. Кодирование не использовалось, просто выполнялись простые команды, и у нас появился сайт Live в Интернете.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Slides</title>
+      <link>https://maabedelhay.github.io/ru/slides/example/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://maabedelhay.github.io/ru/slides/example/</guid>
+      <description>&lt;h1 id=&#34;create-slides-in-markdown-with-wowchemy&#34;&gt;Create slides in Markdown with Wowchemy&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://wowchemy.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wowchemy&lt;/a&gt; | &lt;a href=&#34;https://owchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Efficiently write slides in Markdown&lt;/li&gt;
+&lt;li&gt;3-in-1: Create, Present, and Publish your slides&lt;/li&gt;
+&lt;li&gt;Supports speaker notes&lt;/li&gt;
+&lt;li&gt;Mobile friendly slides&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;controls&#34;&gt;Controls&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Next: &lt;code&gt;Right Arrow&lt;/code&gt; or &lt;code&gt;Space&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Previous: &lt;code&gt;Left Arrow&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Start: &lt;code&gt;Home&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Finish: &lt;code&gt;End&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Overview: &lt;code&gt;Esc&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Speaker notes: &lt;code&gt;S&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Fullscreen: &lt;code&gt;F&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Zoom: &lt;code&gt;Alt + Click&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/hakimel/reveal.js#pdf-export&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF Export&lt;/a&gt;: &lt;code&gt;E&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;code-highlighting&#34;&gt;Code Highlighting&lt;/h2&gt;
+&lt;p&gt;Inline code: &lt;code&gt;variable&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Code block:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;porridge&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;blueberry&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;porridge&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;==&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;blueberry&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Eating...&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h2 id=&#34;math&#34;&gt;Math&lt;/h2&gt;
+&lt;p&gt;In-line math: $x + y = z$&lt;/p&gt;
+&lt;p&gt;Block math:&lt;/p&gt;
+&lt;p&gt;$$
+f\left( x \right) = ;\frac{{2\left( {x + 4} \right)\left( {x - 4} \right)}}{{\left( {x + 4} \right)\left( {x + 1} \right)}}
+$$&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;fragments&#34;&gt;Fragments&lt;/h2&gt;
+&lt;p&gt;Make content appear incrementally&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;{{% fragment %}} One {{% /fragment %}}
+{{% fragment %}} **Two** {{% /fragment %}}
+{{% fragment %}} Three {{% /fragment %}}
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Press &lt;code&gt;Space&lt;/code&gt; to play!&lt;/p&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+  One
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+  &lt;strong&gt;Two&lt;/strong&gt;
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+  Three
+&lt;/span&gt;
+&lt;hr&gt;
+&lt;p&gt;A fragment can accept two optional parameters:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;class&lt;/code&gt;: use a custom style (requires definition in custom CSS)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;weight&lt;/code&gt;: sets the order in which a fragment appears&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;speaker-notes&#34;&gt;Speaker Notes&lt;/h2&gt;
+&lt;p&gt;Add speaker notes to your presentation&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{% speaker_note %}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; Only the speaker can read these notes
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; Press &lt;span class=&#34;sb&#34;&gt;`S`&lt;/span&gt; key to view
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  {{% /speaker_note %}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Press the &lt;code&gt;S&lt;/code&gt; key to view the speaker notes!&lt;/p&gt;
+&lt;aside class=&#34;notes&#34;&gt;
+  &lt;ul&gt;
+&lt;li&gt;Only the speaker can read these notes&lt;/li&gt;
+&lt;li&gt;Press &lt;code&gt;S&lt;/code&gt; key to view&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/aside&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;black: Black background, white text, blue links (default)&lt;/li&gt;
+&lt;li&gt;white: White background, black text, blue links&lt;/li&gt;
+&lt;li&gt;league: Gray background, white text, blue links&lt;/li&gt;
+&lt;li&gt;beige: Beige background, dark text, brown links&lt;/li&gt;
+&lt;li&gt;sky: Blue background, thin dark text, blue links&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;night: Black background, thick white text, orange links&lt;/li&gt;
+&lt;li&gt;serif: Cappuccino background, gray text, brown links&lt;/li&gt;
+&lt;li&gt;simple: White background, black text, blue links&lt;/li&gt;
+&lt;li&gt;solarized: Cream-colored background, dark green text, blue links&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;/media/boards.jpg&#34;
+  &gt;
+
+&lt;h2 id=&#34;custom-slide&#34;&gt;Custom Slide&lt;/h2&gt;
+&lt;p&gt;Customize the slide style and background&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;slide&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;background-image&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;/media/boards.jpg&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;slide&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;background-color&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;#0000FF&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;slide&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;class&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;my-style&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h2 id=&#34;custom-css-example&#34;&gt;Custom CSS Example&lt;/h2&gt;
+&lt;p&gt;Let&amp;rsquo;s make headers navy colored.&lt;/p&gt;
+&lt;p&gt;Create &lt;code&gt;assets/css/reveal_custom.css&lt;/code&gt; with:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;reveal&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;section&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;h1&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;reveal&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;section&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;h2&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;reveal&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;section&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;h3&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;color&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;navy&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h1 id=&#34;questions&#34;&gt;Questions?&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-modules/discussions&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ask&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://wowchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://maabedelhay.github.io/ru/admin/config.yml</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://maabedelhay.github.io/ru/admin/config.yml</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Индивидуальный проект</title>
+      <link>https://maabedelhay.github.io/ru/project/project-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://maabedelhay.github.io/ru/project/project-1/</guid>
+      <description>&lt;h1 id=&#34;обзор&#34;&gt;Обзор&lt;/h1&gt;
+&lt;p&gt;Цель проекта - сделать персональный сайт, размещенный в Интернете. Три основных компонента этого сайта — это генератор статического сайта Hugo, академический шаблон wowchemy и хостинг GitHub.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;maabedelhay.github.io&#34; srcset=&#34;
+               /ru/project/project-1/site_hu214936b97d499b36bce44013a630f801_334797_81a6147c8cb1d43ed694272261201933.webp 400w,
+               /ru/project/project-1/site_hu214936b97d499b36bce44013a630f801_334797_eff89417b44e23a31702e49176deef91.webp 760w,
+               /ru/project/project-1/site_hu214936b97d499b36bce44013a630f801_334797_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://maabedelhay.github.io/ru/project/project-1/site_hu214936b97d499b36bce44013a630f801_334797_81a6147c8cb1d43ed694272261201933.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;381&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Главная страница сайта содержит мою фотографию профиля, биографию, информацию об образовании, навыках, опыте и мои сообщения.&lt;/p&gt;
+&lt;h2 id=&#34;хьюго&#34;&gt;Хьюго&lt;/h2&gt;
+&lt;p&gt;Генератор статического сайта берет ваш контент, применяет его к шаблону и создает статический сайт на основе HTML. Он отлично подходит для блогов и целевых страниц.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Преимущества:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Быстрое развертывание&lt;/li&gt;
+&lt;li&gt;Безопасный (без динамического содержимого)&lt;/li&gt;
+&lt;li&gt;Быстрое время загрузки&lt;/li&gt;
+&lt;li&gt;Простое использование&lt;/li&gt;
+&lt;li&gt;Управление версиями&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Чтобы начать с Hugo, сначала я скачал [последнюю версию] (&lt;a href=&#34;https://github.com/gohugoio/hugo/releases&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/gohugoio/hugo/releases&lt;/a&gt;) Hugo. Затем я создал новый репозиторий, клонированный из академического шаблона Wowchemy. После клонирования репозитория и создания нового репозитория для размещения сайта. Я создал сайт с помощью Hugo.&lt;/p&gt;
+&lt;h2 id=&#34;вовхимия&#34;&gt;Вовхимия&lt;/h2&gt;
+&lt;p&gt;Академический шаблон Wowchemy Hugo помогает создать сайт и предоставить нам необходимый файл, чтобы мы могли настроить его и работать над ним.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;s&#34; srcset=&#34;
+               /ru/project/project-1/wowchemy_hub4adde2c19dc98c565e41197d4cf542c_212147_1b9959dd88e32cce2043efd89e7cabe0.webp 400w,
+               /ru/project/project-1/wowchemy_hub4adde2c19dc98c565e41197d4cf542c_212147_e40636ec62be6f025e22c4e1f38e8e34.webp 760w,
+               /ru/project/project-1/wowchemy_hub4adde2c19dc98c565e41197d4cf542c_212147_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://maabedelhay.github.io/ru/project/project-1/wowchemy_hub4adde2c19dc98c565e41197d4cf542c_212147_1b9959dd88e32cce2043efd89e7cabe0.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;381&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Просто клонируйте [шаблон] (&lt;a href=&#34;https://github.com/maabedelhay/starter-hugo-academic&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/maabedelhay/starter-hugo-academic&lt;/a&gt;) в качестве нового репозитория.&lt;/p&gt;
+&lt;h2 id=&#34;гитхаб&#34;&gt;Гитхаб&lt;/h2&gt;
+&lt;p&gt;Бесплатный хостинг GitHub является основным, позволяющим нам размещать сайт в Интернете. создав репозиторий в виде username.github.io. В этом репозитории код сайта.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;s&#34; srcset=&#34;
+               /ru/project/project-1/github-io_huce8f4dab4316aff6ba0270a3a4d874b9_124884_19f499a04e3d6f7e70ec5647f3596f05.webp 400w,
+               /ru/project/project-1/github-io_huce8f4dab4316aff6ba0270a3a4d874b9_124884_ec8a37ccc291f7342849fd51c4752166.webp 760w,
+               /ru/project/project-1/github-io_huce8f4dab4316aff6ba0270a3a4d874b9_124884_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://maabedelhay.github.io/ru/project/project-1/github-io_huce8f4dab4316aff6ba0270a3a4d874b9_124884_19f499a04e3d6f7e70ec5647f3596f05.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;381&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;этот-проект-помог-мне-понять-как-работает-хостинг-github-как-важно-иметь-личный-блог-который-побуждает-вас-публиковать-свои-работы-и-идеи&#34;&gt;Этот проект помог мне понять, как работает хостинг GitHub. Как важно иметь личный блог, который побуждает вас публиковать свои работы и идеи.&lt;/h2&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

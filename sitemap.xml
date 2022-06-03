@@ -1,53 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
+  <sitemap>
+    <loc>https://maabedelhay.github.io/en/sitemap.xml</loc>
+    
+      <lastmod>2022-05-28T22:09:30+03:00</lastmod>
+    
+  </sitemap>
   
-  <url>
-    <loc>https://maabedelhay.github.io/</loc><lastmod>2022-05-28T22:09:30+03:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://maabedelhay.github.io/post/</loc><lastmod>2022-05-28T22:09:30+03:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://maabedelhay.github.io/post/scientific/</loc><lastmod>2022-05-28T22:09:30+03:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc></loc><lastmod>2022-05-28T21:59:51+03:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://maabedelhay.github.io/categories/</loc><lastmod>2022-05-28T21:59:51+03:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://maabedelhay.github.io/category/education/</loc><lastmod>2022-05-28T21:59:51+03:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://maabedelhay.github.io/post/step5/</loc><lastmod>2022-05-28T21:59:51+03:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc></loc><lastmod>2022-05-28T21:59:51+03:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://maabedelhay.github.io/tag/os-intro/</loc><lastmod>2022-05-28T21:59:51+03:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://maabedelhay.github.io/tags/</loc><lastmod>2022-05-28T21:59:51+03:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://maabedelhay.github.io/post/report-formating/</loc><lastmod>2022-05-18T21:05:25+03:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://maabedelhay.github.io/post/forth-step/lastweek/</loc><lastmod>2022-05-18T20:51:46+03:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://maabedelhay.github.io/post/latex/latex-post/</loc><lastmod>2022-05-11T18:01:15+03:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://maabedelhay.github.io/post/third-step/lastweek-post/</loc><lastmod>2022-05-11T17:33:35+03:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://maabedelhay.github.io/post/autodeploy-script/bash-deploy/</loc><lastmod>2022-05-07T13:28:34+03:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://maabedelhay.github.io/post/git-post/git-version-control/</loc><lastmod>2022-05-06T10:58:11+03:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://maabedelhay.github.io/post/first-step/first-step/</loc><lastmod>2022-05-05T22:00:08+03:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://maabedelhay.github.io/slides/</loc><lastmod>2019-02-05T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://maabedelhay.github.io/slides/example/</loc><lastmod>2019-02-05T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://maabedelhay.github.io/tag/hugo/</loc><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://maabedelhay.github.io/project/project-1/</loc><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://maabedelhay.github.io/project/</loc><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://maabedelhay.github.io/publication_types/</loc><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://maabedelhay.github.io/tag/site/</loc><changefreq>weekly</changefreq></url></urlset>
+  <sitemap>
+    <loc>https://maabedelhay.github.io/ru/sitemap.xml</loc>
+    
+      <lastmod>2022-05-28T22:09:30+03:00</lastmod>
+    
+  </sitemap>
+  
+</sitemapindex>
