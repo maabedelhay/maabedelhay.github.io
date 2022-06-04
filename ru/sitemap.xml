@@ -64,16 +64,6 @@
       href="https://maabedelhay.github.io/ru/category/education/"
     /></url>
   <url>
-    <loc>https://maabedelhay.github.io/ru/post/step5/</loc><lastmod>2022-05-28T21:59:51+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://maabedelhay.github.io/post/step5/"
-    /><xhtml:link
-      rel="alternate"
-      hreflang="ru"
-      href="https://maabedelhay.github.io/ru/post/step5/"
-    /></url>
-  <url>
     <loc>https://maabedelhay.github.io/ru/tag/os-intro/</loc><lastmod>2022-05-28T21:59:51+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
       rel="alternate"
       hreflang="en"
@@ -102,6 +92,16 @@
       rel="alternate"
       hreflang="ru"
       href=""
+    /></url>
+  <url>
+    <loc>https://maabedelhay.github.io/ru/post/step5/</loc><lastmod>2022-05-28T21:59:51+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://maabedelhay.github.io/post/step5/"
+    /><xhtml:link
+      rel="alternate"
+      hreflang="ru"
+      href="https://maabedelhay.github.io/ru/post/step5/"
     /></url>
   <url>
     <loc>https://maabedelhay.github.io/ru/post/report-formating/</loc><lastmod>2022-05-18T21:05:25+03:00</lastmod><changefreq>weekly</changefreq><xhtml:link
