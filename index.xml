@@ -5,12 +5,74 @@
     <link>https://maabedelhay.github.io/</link>
       <atom:link href="https://maabedelhay.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description></description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 28 May 2022 22:09:30 +0300</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 04 Jun 2022 21:11:52 +0300</lastBuildDate>
     <image>
       <url>https://maabedelhay.github.io/media/icon_hu98ef5755a27b69a18f879b9391920e5a_85803_512x512_fill_lanczos_center_3.png</url>
       <title></title>
       <link>https://maabedelhay.github.io/</link>
     </image>
+    
+    <item>
+      <title>CVE 2022 26809</title>
+      <link>https://maabedelhay.github.io/post/cve-2022-26809/</link>
+      <pubDate>Sat, 04 Jun 2022 21:11:52 +0300</pubDate>
+      <guid>https://maabedelhay.github.io/post/cve-2022-26809/</guid>
+      <description>&lt;h1 id=&#34;cve-2022-26809-ms-rpc-vulnerability-explained-and-covered&#34;&gt;CVE-2022-26809 MS-RPC Vulnerability Explained and Covered&lt;/h1&gt;
+&lt;p&gt;On Tuesday, 12 April 2022, Microsoft released patches for CVE-2022-26809, reportedly a zero-click exploit targeting Microsoft RPC services. At the time of this publication, there is no proof of this vulnerability being exploited in the wild. However, based on the rating that the exploitation is &amp;ldquo;more likely&amp;rdquo; we expect that this won&amp;rsquo;t long be the case.&lt;/p&gt;
+&lt;h1 id=&#34;the-vulnerability&#34;&gt;The vulnerability&lt;/h1&gt;
+&lt;p&gt;An integer overflow in MSRPC that, if exploited, allows for arbitrary code execution over the network without requiring authentication or user interaction.&lt;/p&gt;
+&lt;p&gt;Security researchers at Akamai have now compared versions 10.0.22000.434 (unpatched, from March) and 10.0.22000.613 (patched, from April) of the RPC runtime library in question within the Windows RPC runtime, which is implemented in a library named rpcrt4.dll — and produced a detailed list of changes.&lt;/p&gt;
+&lt;p&gt;These reveal that the CVE is an “integer overflow bug [that] could lead to a heap buffer overflow, where data is copied onto a buffer that is too small to populate it”.&lt;/p&gt;
+&lt;h1 id=&#34;impact-and-mitigation&#34;&gt;Impact and mitigation&lt;/h1&gt;
+&lt;p&gt;Blocking port 445 at the perimeter is the start of mitigation, but not sufficient to help prevent exploitation.&lt;/p&gt;
+&lt;p&gt;We recommend the following mitigations, based also on Microsoft’s official advisories:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Apply the latest security updates that mitigate these vulnerabilities.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Although RPC is necessary for services used by the system, it is recommended to block traffic to TCP port 445 for devices outside of the enterprise perimeter.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Limit lateral movement by allowing incoming TCP port 445 only on machines where it is needed (i.e., domain controllers, print servers, file servers, etc).&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;In response to this CVE, our Runecast development team deployed an automated check for the vulnerability in the latest Runecast definitions release, version 6.1.0.6, now available for download. Customers with automatic updates enabled will receive the new definitions during the next update cycle, with offline updates available, as always, through the Runecast customer portal.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Last Week Task</title>
+      <link>https://maabedelhay.github.io/post/lastweek/</link>
+      <pubDate>Sat, 04 Jun 2022 21:02:25 +0300</pubDate>
+      <guid>https://maabedelhay.github.io/post/lastweek/</guid>
+      <description>&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;
+&lt;p&gt;Add other elements to the site and make two new posts and one project in the project section about an individual project.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://maabedelhay.github.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website Link&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;task&#34;&gt;Task&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Add from the site all other elements.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Make notes for personal projects.&lt;/li&gt;
+&lt;li&gt;Make a post for the past week.&lt;/li&gt;
+&lt;li&gt;Add a post on the topic of Scientific Programming Languages.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;completing-the-task&#34;&gt;Completing the task&lt;/h1&gt;
+&lt;h2 id=&#34;project&#34;&gt;Project&lt;/h2&gt;
+&lt;p&gt;A new project has been added to the site. The project is an individual project from the OS course. I wrote how I set up the site and the site component.&lt;/p&gt;
+&lt;h2 id=&#34;post-from-last-week&#34;&gt;Post from last week&lt;/h2&gt;
+&lt;p&gt;Wrote about last week&amp;rsquo;s problem. I explained what the task was and how I accomplished it.&lt;/p&gt;
+&lt;h2 id=&#34;post-on-scientific-programming-languages&#34;&gt;Post on Scientific Programming Languages&lt;/h2&gt;
+&lt;p&gt;In this post, I wrote about scientific programming languages. First, I defined what scientific programming languages ​​are, and then I listed the main languages ​​and their characteristics.&lt;/p&gt;
+&lt;h1 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h1&gt;
+&lt;p&gt;Added two posts and a new project to the projects section.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Scientific programming languages</title>
