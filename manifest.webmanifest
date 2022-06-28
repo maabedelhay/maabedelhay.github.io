@@ -1,9 +1,9 @@
 {
-  "name": "",
-  "short_name": "",
+  "name": "ab3d@hay:~$ cd",
+  "short_name": "ab3d@hay:~$ cd",
   "lang": "en-us",
-  "theme_color": "#3f51b5",
-  "background_color": "#3f51b5",
+  "theme_color": "#000000",
+  "background_color": "#000000",
   "icons": [{
     "src": "/media/icon_hu98ef5755a27b69a18f879b9391920e5a_85803_192x192_fill_lanczos_center_3.png",
     "sizes": "192x192",
