@@ -5,12 +5,353 @@
     <link>https://maabedelhay.github.io/post/</link>
       <atom:link href="https://maabedelhay.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 04 Jun 2022 21:11:52 +0300</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 02 Jul 2022 00:19:54 +0300</lastBuildDate>
     <image>
       <url>https://maabedelhay.github.io/media/icon_hu98ef5755a27b69a18f879b9391920e5a_85803_512x512_fill_lanczos_center_3.png</url>
       <title>Posts</title>
       <link>https://maabedelhay.github.io/post/</link>
     </image>
+    
+    <item>
+      <title>Hacker101 CTF  Postbook</title>
+      <link>https://maabedelhay.github.io/post/h101-postbook/</link>
+      <pubDate>Sat, 02 Jul 2022 00:19:54 +0300</pubDate>
+      <guid>https://maabedelhay.github.io/post/h101-postbook/</guid>
+      <description>&lt;h1 id=&#34;this-is-a-write-up-on-hacker101-ctf-postbook-challenge&#34;&gt;This is a write up on hacker101 CTF &amp;ldquo;Postbook&amp;rdquo; challenge&lt;/h1&gt;
+&lt;h3 id=&#34;difficulty--easy--skills--web--name--postbook&#34;&gt;Difficulty : Easy | Skills : Web | Name : Postbook&lt;/h3&gt;
+&lt;h3 id=&#34;lets-get-started&#34;&gt;Lets get started&lt;/h3&gt;
+&lt;h3 id=&#34;flag0-----found&#34;&gt;Flag0 &amp;ndash;  Found&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;The person with user name &amp;ldquo;user&amp;rdquo; has a very easy password&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Solution:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;User name &amp;ldquo;user&amp;rdquo; password   &amp;ldquo;xxxxxxxx&amp;rdquo;.  Brute force will do the job. Use any tool you like Ffuf, Zaproxy or Burp suite ( I will have to warn you, that  the burp suite community edition intruder is crazy slow!!) . I will use  zaproxy since it is my favorite.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /post/h101-postbook/img/zaproxy_hua79dd9e20a4d984a7a5a90c095a9522e_4661_54b3ece23df62e046a301d361fac3576.webp 400w,
+               /post/h101-postbook/img/zaproxy_hua79dd9e20a4d984a7a5a90c095a9522e_4661_f31902e0055d8b152d87359746d21a7a.webp 760w,
+               /post/h101-postbook/img/zaproxy_hua79dd9e20a4d984a7a5a90c095a9522e_4661_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://maabedelhay.github.io/post/h101-postbook/img/zaproxy_hua79dd9e20a4d984a7a5a90c095a9522e_4661_54b3ece23df62e046a301d361fac3576.webp&#34;
+               width=&#34;355&#34;
+               height=&#34;142&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Intercept the login request and open it in the fuzzer tap. Choose the &amp;ldquo;password&amp;rdquo; parameter and set the payload (Any password list will do the job). This list will do the job for this challenge.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;m&#34;&gt;123456&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;m&#34;&gt;12345678&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;qwerty
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;m&#34;&gt;123456789&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;password
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;m&#34;&gt;12345&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;m&#34;&gt;1234&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;m&#34;&gt;111111&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;m&#34;&gt;1234567&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;dragon
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;m&#34;&gt;123123&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;baseball
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;abc123
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;football
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Start the fuzzer and you want to keep an eye on the response-length and HTTP code columns. The response length of a logged-in page is not the same as an error response page (In this case). The  correct password will stick out from the others with a unique response length and 302 HTTP code.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /post/h101-postbook/img/flag0_hue5d7ab47dadef752b421980d9ed0f3f2_75964_911829ca1d00b839bb07b330d665b9dc.webp 400w,
+               /post/h101-postbook/img/flag0_hue5d7ab47dadef752b421980d9ed0f3f2_75964_1cd4a2d0670733780e8ced9d9343ec54.webp 760w,
+               /post/h101-postbook/img/flag0_hue5d7ab47dadef752b421980d9ed0f3f2_75964_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://maabedelhay.github.io/post/h101-postbook/img/flag0_hue5d7ab47dadef752b421980d9ed0f3f2_75964_911829ca1d00b839bb07b330d665b9dc.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;462&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Log in to get the flag.&lt;/p&gt;
+&lt;h3 id=&#34;flag1----found&#34;&gt;Flag1 &amp;ndash; Found&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Try viewing your own post and then see if you can change the ID&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Solution:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /post/h101-postbook/img/flag1_hu87158bb579468db1eee485d7fdb9e965_44661_b10903c04aa8588cc285e09e6af3ad31.webp 400w,
+               /post/h101-postbook/img/flag1_hu87158bb579468db1eee485d7fdb9e965_44661_9f1a48323ec438f5595062af87d00fb7.webp 760w,
+               /post/h101-postbook/img/flag1_hu87158bb579468db1eee485d7fdb9e965_44661_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://maabedelhay.github.io/post/h101-postbook/img/flag1_hu87158bb579468db1eee485d7fdb9e965_44661_b10903c04aa8588cc285e09e6af3ad31.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;360&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;When viewing a post. The site take you to a &amp;ldquo;view&amp;rdquo; endpoint that take an  &amp;ldquo;id&amp;rdquo; parameter. So naturally when I saw the id parameter I changed the parameter value from id=3 to id=2 . Which displayed a private post written by the admin and gives the flag.&lt;/p&gt;
+&lt;h3 id=&#34;flag2----found&#34;&gt;Flag2 &amp;ndash; Found&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;You should definitely use &amp;ldquo;Inspect Element&amp;rdquo; on the form when creating a new post&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Solution:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /post/h101-postbook/img/flag2_hu0519663ba65bcba97f7a10757e18b3be_44883_dc81af37468e99410e96c980ce769573.webp 400w,
+               /post/h101-postbook/img/flag2_hu0519663ba65bcba97f7a10757e18b3be_44883_e9c34b32d1a6a1f41fbf01d2f21788a5.webp 760w,
+               /post/h101-postbook/img/flag2_hu0519663ba65bcba97f7a10757e18b3be_44883_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://maabedelhay.github.io/post/h101-postbook/img/flag2_hu0519663ba65bcba97f7a10757e18b3be_44883_dc81af37468e99410e96c980ce769573.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;249&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;When creating a new post. I noticed that when I choose the private posting feature, there is a  hidden input tag  with id=2. So I captured the post request and changed the &amp;ldquo;id&amp;rdquo; parameter into id=1. The response contained the flag.&lt;/p&gt;
+&lt;h3 id=&#34;flag3-----found&#34;&gt;Flag3 &amp;ndash;  Found&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;189 * 5&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Solution:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /post/h101-postbook/img/flag3_hu034d8116ff432704611107e92ea7cf6d_22328_f7ecfe316020e4508b9a9f382a8618aa.webp 400w,
+               /post/h101-postbook/img/flag3_hu034d8116ff432704611107e92ea7cf6d_22328_30014776c25a4b60e98f8524634a1e4b.webp 760w,
+               /post/h101-postbook/img/flag3_hu034d8116ff432704611107e92ea7cf6d_22328_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://maabedelhay.github.io/post/h101-postbook/img/flag3_hu034d8116ff432704611107e92ea7cf6d_22328_f7ecfe316020e4508b9a9f382a8618aa.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;353&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;URL : &lt;a href=&#34;https://xxx.ctf.hacker101.com/index.php?page=view.php&amp;amp;id=945&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://xxx.ctf.hacker101.com/index.php?page=view.php&amp;id=945&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I was sure that the number &amp;ldquo;945&amp;rdquo; have no value and I need to inject it in some parameter. First attempt wast to inject it to &amp;ldquo;view=945&amp;rdquo; parameter and it responded with a buffer that contained the flag.&lt;/p&gt;
+&lt;h3 id=&#34;flag4----found&#34;&gt;Flag4 &amp;ndash; Found&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;You can edit your own posts, what about someone else&amp;rsquo;s?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Solution:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /post/h101-postbook/img/flag4_hu56c8238a2ad37c29dc43c8a1add91eb9_51596_3eb215347c47eea62e4376fd75a6e355.webp 400w,
+               /post/h101-postbook/img/flag4_hu56c8238a2ad37c29dc43c8a1add91eb9_51596_e40a55b03c972aeade8fdf756b911964.webp 760w,
+               /post/h101-postbook/img/flag4_hu56c8238a2ad37c29dc43c8a1add91eb9_51596_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://maabedelhay.github.io/post/h101-postbook/img/flag4_hu56c8238a2ad37c29dc43c8a1add91eb9_51596_3eb215347c47eea62e4376fd75a6e355.webp&#34;
+               width=&#34;729&#34;
+               height=&#34;649&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;URL : &lt;a href=&#34;https://xxx.ctf.hacker101.com/index.php?page=edit.php&amp;amp;id=1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://xxx.ctf.hacker101.com/index.php?page=edit.php&amp;id=1&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I noticed that when I edit my post  there was an id parameter  in the page URL. So I changed it to id=1 and I got access to the admin edit post buffer.&lt;/p&gt;
+&lt;p&gt;Edited the title and  saved the post. The page showed the flag.&lt;/p&gt;
+&lt;h3 id=&#34;flag5-----found&#34;&gt;Flag5 &amp;ndash;  Found&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;The cookie allows you to stay signed in. Can you figure out how they work so you can sign in to user with ID 1?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Solution:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;So now I know that the admin cookie value &amp;ldquo;1&amp;rdquo;. The change password and user name  feature is carried out by the  the &amp;ldquo;account.php&amp;rdquo; file which only need an authenticated cookie. So from the user account I sent a request and intercepted it.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /post/h101-postbook/img/flag5-1_hu08cba00ef88e481f4ec6303da1ea9115_157455_ee4094bf60511af59243f38c535d688d.webp 400w,
+               /post/h101-postbook/img/flag5-1_hu08cba00ef88e481f4ec6303da1ea9115_157455_6b37e7af9f2eaae6ccb58b4f880c07a2.webp 760w,
+               /post/h101-postbook/img/flag5-1_hu08cba00ef88e481f4ec6303da1ea9115_157455_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://maabedelhay.github.io/post/h101-postbook/img/flag5-1_hu08cba00ef88e481f4ec6303da1ea9115_157455_ee4094bf60511af59243f38c535d688d.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;349&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Then I change the &amp;ldquo;id&amp;rdquo; cookie to the MD5 hash for number &amp;ldquo;1&amp;rdquo; which is   &lt;strong&gt;c4ca4238a0b923820dcc509a6f75849b&lt;/strong&gt; . Since there is no CSRF token or any other type of authorization tokens the request was accepted and I was able to change the admin&amp;rsquo;s password. Signed in to the admin account and The flag was waiting for me there.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /post/h101-postbook/img/flag5-2_hu0472ae479154fd0825f0c867cc5aafde_58556_13dbcd90a0549230ba061a901ac06a08.webp 400w,
+               /post/h101-postbook/img/flag5-2_hu0472ae479154fd0825f0c867cc5aafde_58556_b1123b39a7ce9a092ab6edae8cce7049.webp 760w,
+               /post/h101-postbook/img/flag5-2_hu0472ae479154fd0825f0c867cc5aafde_58556_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://maabedelhay.github.io/post/h101-postbook/img/flag5-2_hu0472ae479154fd0825f0c867cc5aafde_58556_13dbcd90a0549230ba061a901ac06a08.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;332&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;flag6-----found&#34;&gt;Flag6 &amp;ndash;  Found&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Deleting a post seems to take an ID that is not a number. Can you figure out what it is?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Solution:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;They are MD5 hashes same as in the cookies. Using crack station I found that each one correspond to a number. The delete parameter takes an MD5 hash while the view paramter take an integer number so from the view post page  we can see that the admin post id=1.&lt;/p&gt;
+&lt;p&gt;I intercepted a delete post request that was initiated by the user account.  I encoded number 1 with MD5 hash and changed the id. In the respond I received the flag from zap inform of a pop up and for some reason i was not able to copy the flag.&lt;/p&gt;
+&lt;p&gt;So i used curl to make a POST  request and it worked i received the flag in the response.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; curl &lt;span class=&#34;s1&#34;&gt;&amp;#39;https://xxxxxxxxxxx.ctf.hacker101.com/index.php?page=delete.php&amp;amp;id=c81e728d9d4c2f636f067f89cc14862c&amp;#39;&lt;/span&gt; -v  -X POST -b &lt;span class=&#34;s1&#34;&gt;&amp;#39;id=c81e728d9d4c2f636f067f89cc14862c&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# -X POST is the Http method&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# -v for verbos mode&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# -d to add the cookie for the request. In this case i added the user cookie. it is important because  if the request had the admin cookie. then it would be a normal delete request.&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Replace the URL with your UR and the is parameter with the MD5 hash of the id number of the post to delete.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /post/h101-postbook/img/flag6_huefc3c67c7248f4e909b3c0c28f35ef27_237828_632c481ad98ee2c486038735dfbfc6ec.webp 400w,
+               /post/h101-postbook/img/flag6_huefc3c67c7248f4e909b3c0c28f35ef27_237828_413c65c9f3256dd6dd3b559bce3d523e.webp 760w,
+               /post/h101-postbook/img/flag6_huefc3c67c7248f4e909b3c0c28f35ef27_237828_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://maabedelhay.github.io/post/h101-postbook/img/flag6_huefc3c67c7248f4e909b3c0c28f35ef27_237828_632c481ad98ee2c486038735dfbfc6ec.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;That&amp;rsquo;s it for the challenge. Hope you learned something. Obviously we did not perform any advanced attacks and techniques.  Using curiosity and  basic web and networking knowledge was enough for this challenge.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>CVE 2022 26809</title>
@@ -38,39 +379,6 @@
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;In response to this CVE, our Runecast development team deployed an automated check for the vulnerability in the latest Runecast definitions release, version 6.1.0.6, now available for download. Customers with automatic updates enabled will receive the new definitions during the next update cycle, with offline updates available, as always, through the Runecast customer portal.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Last Week Task</title>
-      <link>https://maabedelhay.github.io/post/lastweek/</link>
-      <pubDate>Sat, 04 Jun 2022 21:02:25 +0300</pubDate>
-      <guid>https://maabedelhay.github.io/post/lastweek/</guid>
-      <description>&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;
-&lt;p&gt;Add other elements to the site and make two new posts and one project in the project section about an individual project.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;a href=&#34;https://maabedelhay.github.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Website Link&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h1 id=&#34;task&#34;&gt;Task&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Add from the site all other elements.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Make notes for personal projects.&lt;/li&gt;
-&lt;li&gt;Make a post for the past week.&lt;/li&gt;
-&lt;li&gt;Add a post on the topic of Scientific Programming Languages.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;completing-the-task&#34;&gt;Completing the task&lt;/h1&gt;
-&lt;h2 id=&#34;project&#34;&gt;Project&lt;/h2&gt;
-&lt;p&gt;A new project has been added to the site. The project is an individual project from the OS course. I wrote how I set up the site and the site component.&lt;/p&gt;
-&lt;h2 id=&#34;post-from-last-week&#34;&gt;Post from last week&lt;/h2&gt;
-&lt;p&gt;Wrote about last week&amp;rsquo;s problem. I explained what the task was and how I accomplished it.&lt;/p&gt;
-&lt;h2 id=&#34;post-on-scientific-programming-languages&#34;&gt;Post on Scientific Programming Languages&lt;/h2&gt;
-&lt;p&gt;In this post, I wrote about scientific programming languages. First, I defined what scientific programming languages ​​are, and then I listed the main languages ​​and their characteristics.&lt;/p&gt;
-&lt;h1 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h1&gt;
-&lt;p&gt;Added two posts and a new project to the projects section.&lt;/p&gt;
 </description>
     </item>
     
@@ -109,197 +417,13 @@ R is built to handle massive data sets and complex processing through RStudio. I
     </item>
     
     <item>
-      <title>Lst Week Task</title>
-      <link>https://maabedelhay.github.io/post/step5/</link>
-      <pubDate>Sat, 28 May 2022 21:59:51 +0300</pubDate>
-      <guid>https://maabedelhay.github.io/post/step5/</guid>
-      <description>&lt;h1 id=&#34;added-inks-to-academic-and-research-sites&#34;&gt;Added inks to academic and research sites&lt;/h1&gt;
-&lt;h1 id=&#34;overview&#34;&gt;Overview&lt;/h1&gt;
-&lt;p&gt;In the the last week task i added a section for links. in the section i added links for&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;eLibrary&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Google Scholar&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;ORCID&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Mendeley&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;ResearchGate&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;arXiv&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;completing-the-task&#34;&gt;Completing the Task&lt;/h1&gt;
-&lt;p&gt;I registered in the sites and added the links to section named links. the section is before the contact section.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Report Formating</title>
-      <link>https://maabedelhay.github.io/post/report-formating/</link>
-      <pubDate>Wed, 18 May 2022 21:05:25 +0300</pubDate>
-      <guid>https://maabedelhay.github.io/post/report-formating/</guid>
-      <description>&lt;h1 id=&#34;in-this-post-i-will-tackle-the-process-of-completing-a-report&#34;&gt;In this post i will tackle the process of Completing a report&lt;/h1&gt;
-&lt;h1 id=&#34;overview&#34;&gt;Overview&lt;/h1&gt;
-&lt;p&gt;As a student reporting my work on the labs are as important as solving the associated tasks. The report not only shows that i had completed the tasks. But also reflect my understanding of the tasks.&lt;/p&gt;
-&lt;h1 id=&#34;report-criteria&#34;&gt;Report criteria&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;The presence of the the report is the first condition.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Reporrt format :&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;pdf&lt;/li&gt;
-&lt;li&gt;markdown&lt;/li&gt;
-&lt;li&gt;docx&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Screenshots&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Links&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Report writen in a structured form&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Completion of all tasks&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;These are the required component of  
-  &lt;i class=&#34;fas fa-grin-stars  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 5 stars report.&lt;/p&gt;
-&lt;h1 id=&#34;what-is-pandoc&#34;&gt;What is pandoc?&lt;/h1&gt;
-&lt;p&gt;Pandoc is a open-source document converter. I write the report in markdown language and using pando, latex and a Make configuration it produce two other reports in two other formats (pdf/docx).&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Last Week Task</title>
-      <link>https://maabedelhay.github.io/post/forth-step/lastweek/</link>
-      <pubDate>Wed, 18 May 2022 20:51:46 +0300</pubDate>
-      <guid>https://maabedelhay.github.io/post/forth-step/lastweek/</guid>
-      <description>&lt;h1 id=&#34;last-week-task-had-me-to-add-three-section-to-the-site-skills-experience-accomplishments&#34;&gt;Last week task had me to add three section to the site (skills, experience, accomplishments)&lt;/h1&gt;
-&lt;h1 id=&#34;overview&#34;&gt;Overview&lt;/h1&gt;
-&lt;p&gt;As i mentioned earlier the site now have three new sections which made the site more personalise. Have a bigger view of who i am.&lt;/p&gt;
-&lt;h1 id=&#34;completing-the-task&#34;&gt;Completing The Task&lt;/h1&gt;
-&lt;p&gt;The steps to make these changes are very simple. Every section in the site have page in markdown associated to it in the home directory. For example when i wished to add my skills.&lt;/p&gt;
-&lt;p&gt;I headed to content/home/skills.md modified the content and rebuilt the site. Same steps for the other two sections&lt;/p&gt;
-&lt;p&gt;That&amp;rsquo;s it for the last week task.&lt;/p&gt;
-&lt;p&gt;Thanks.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Latex- A document preparation system </title>
-      <link>https://maabedelhay.github.io/post/latex/latex-post/</link>
-      <pubDate>Wed, 11 May 2022 18:01:15 +0300</pubDate>
-      <guid>https://maabedelhay.github.io/post/latex/latex-post/</guid>
-      <description>&lt;h1 id=&#34;latex-is-a-free-software-package--used-for-typesetting-technical-documents&#34;&gt;LaTeX is a free software package  used for typesetting technical documents.&lt;/h1&gt;
-&lt;hr&gt;
-&lt;p&gt;LAtex have the ability to typeset technical documents that contain complex mathematical equations. This feature made LaTeX popular with scientists and engineers&lt;/p&gt;
-&lt;p&gt;LaTeX can be used as a standalone document preparation system, or as an intermediate format. In the latter role, for example, it is sometimes used as part of a pipeline for translating DocBook and other XML-based formats to PDF.&lt;/p&gt;
-&lt;h2 id=&#34;how-to-install-it&#34;&gt;How to install it?&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Install TexLive&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;On th ecommand line write&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo apt install tex-live-full &lt;span class=&#34;c1&#34;&gt;# Ubuntu and Debian like machines&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo pacman -Syyu texlive-most tesclive-bin &lt;span class=&#34;c1&#34;&gt;# Manjaro and Arch like machines&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;Install Texmaker&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;A cross-platform open source LaTeX editor. To install it, go to the terminal and execute this command:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo apt install texmaker &lt;span class=&#34;c1&#34;&gt;# Ubuntu and Debian like machines&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo pacman -Syyu texmaker &lt;span class=&#34;c1&#34;&gt;# Manjaro and Arch like machines&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;Creat first document&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Open Texmaker and click on File, New. Then put the following code:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;\documentclass{article}
-\begin{document}
-    Hello, world!
-\end{document}
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Now save the document as a tex file going to File, Save. Finally, compile the document clicking on Tools, PDFLaTeX. Make sure the PDF file has been created and it&amp;rsquo;s working. And that&amp;rsquo;s it! You&amp;rsquo;ve created your first LaTeX document!&lt;/p&gt;
-&lt;h2 id=&#34;example-of-using-latex&#34;&gt;Example of using Latex&lt;/h2&gt;
-&lt;p&gt;Input to LaTeX and the corresponding output from the system:&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;\documentclass{article} % Starts an article 
-\usepackage{amsmath} % Imports amsmath
-\title{\LaTeX} % Title,
-\begin{document} % Begins a document,
-\maketitle,
-\LaTeX{} is a document preparation system for,the \TeX{} typesetting program. It offers,programmable desktop publishing features and,extensive facilities for automating most,aspects of typesetting and desktop publishing,,including numbering and,cross-referencing,,tables and figures, page layout,,bibliographies, and much more. \LaTeX{} was,originally written in 1984 by Leslie Lamport,and has become the,dominant method for using, \TeX; few people write in plain \TeX{} anymore.,The current version is \LaTeXe.,% This is a comment, not shown in final output.,% The following shows typesetting,power of LaTeX:,\begin{align},E_0 &amp;amp;= mc^2 \\,E &amp;amp;= \frac{mc^2}{\sqrt{1-\frac{v^2}{c^2}}},\end{align},\end{document} 
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/LaTeX_example.svg/744px-LaTeX_example.svg.png&#34; alt=&#34;latex&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Last Week Task</title>
-      <link>https://maabedelhay.github.io/post/third-step/lastweek-post/</link>
-      <pubDate>Wed, 11 May 2022 17:33:35 +0300</pubDate>
-      <guid>https://maabedelhay.github.io/post/third-step/lastweek-post/</guid>
-      <description>&lt;h1 id=&#34;last-week-was-all-about-solving-lab-5-and-customizing-the-site-as-a-step-2-of-individual-project&#34;&gt;Last week was all about solving lab 5 and customizing the site as a step 2 of individual project.&lt;/h1&gt;
-&lt;h1 id=&#34;overview&#34;&gt;Overview&lt;/h1&gt;
-&lt;p&gt;Add personal information to the site plus made two posts one of them was about the &lt;a href=&#34;https://maabedelhay.github.io/post/first-step/first-step/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;first week&lt;/a&gt; and the second about &lt;a href=&#34;https://maabedelhay.github.io/post/git-post/git-version-control/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;version control GIT&lt;/a&gt;.&lt;/p&gt;
-&lt;h1 id=&#34;completing-the-tasks&#34;&gt;Completing the tasks&lt;/h1&gt;
-&lt;h2 id=&#34;adding-personal-information&#34;&gt;Adding personal Information&lt;/h2&gt;
-&lt;p&gt;Adde short biography, University name and profile picture.&lt;/p&gt;
-&lt;h2 id=&#34;post-about-first-week&#34;&gt;Post about first week&lt;/h2&gt;
-&lt;p&gt;Described the required tasks and how i completed them.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;a href=&#34;https://maabedelhay.github.io/post/first-step/first-step/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Link for the post&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&#34;post-about-version-control-git&#34;&gt;Post about version control GIT&lt;/h2&gt;
-&lt;p&gt;Definition of version control and how to use it and some of the popular git command.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;a href=&#34;https://maabedelhay.github.io/post/git-post/git-version-control/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Link for the post&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h1 id=&#34;post-on-bash-script&#34;&gt;Post on bash script&lt;/h1&gt;
-&lt;p&gt;Added a post on a simple bash script that i wrote for automating the deployment process.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;a href=&#34;https://maabedelhay.github.io/post/autodeploy-script/bash-deploy/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Link for the post&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Automating Deployments with Bash script</title>
-      <link>https://maabedelhay.github.io/post/autodeploy-script/bash-deploy/</link>
+      <title>Bash Deploy</title>
+      <link>https://maabedelhay.github.io/post/bash-deploy/</link>
       <pubDate>Sat, 07 May 2022 13:28:34 +0300</pubDate>
-      <guid>https://maabedelhay.github.io/post/autodeploy-script/bash-deploy/</guid>
+      <guid>https://maabedelhay.github.io/post/bash-deploy/</guid>
       <description>&lt;h1 id=&#34;every-time-i-make-a-change-on-the-site-i-need-to-go-through-set-of-repeated-commands-so-i-decided-to-make-a-simple-bash-script-to-automate-the-task&#34;&gt;Every time I make a change on the site I need to go through set of repeated commands. So I decided to make a simple bash script to automate the task.&lt;/h1&gt;
 &lt;h2 id=&#34;what-is-bash-script&#34;&gt;What is bash script?&lt;/h2&gt;
 &lt;p&gt;A Bash script is a text file containing a series of commands. Any command that can be executed in the terminal can be put into a Bash script. Any series of commands to be executed in the terminal can be written in a text file, in that order, as a Bash script. There for it is used to automate repetitive tasks on Linux file system. For more information  &lt;a href=&#34;https://www.javatpoint.com/bash-scripting&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;read more about bash&lt;/a&gt; .&lt;/p&gt;
- &lt;img src=&#34;https://camo.githubusercontent.com/a7de91b915d8b286dda762e3683d9a1c961692d43f8349d020ecd54634a823cf/68747470733a2f2f63646e2e7261776769742e636f6d2f6f64622f6f6666696369616c2d626173682d6c6f676f2f6d61737465722f6173736574732f4c6f676f732f4964656e746974792f504e472f424153485f6c6f676f2d7472616e73706172656e742d62672d636f6c6f722e706e67&#34; alt=&#34;failed&#34; &gt; 
 &lt;h2 id=&#34;deploying-the-site&#34;&gt;Deploying the site&lt;/h2&gt;
 &lt;p&gt;My site content are in a directory called blog/ . It contains the markdown file.&lt;/p&gt;
 &lt;p&gt;After Editing the files i need to push the changes to the remote repository.&lt;/p&gt;
@@ -410,46 +534,6 @@ R is built to handle massive data sets and complex processing through RStudio. I
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;вывод&#34;&gt;Вывод&lt;/h1&gt;
 &lt;hr&gt;
 &lt;p&gt;GIT определенно является одним из близких друзей разработчиков. Изучение GIT улучшит ваш рабочий процесс и повысит производительность. Это было небольшое введение в систему контроля версий GIT. О GIT можно рассказать еще очень много. Я настоятельно рекомендую узнать больше о GIT и его различных командах.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Первый шаг в индивидуальном проекте</title>
-      <link>https://maabedelhay.github.io/post/first-step/first-step/</link>
-      <pubDate>Thu, 05 May 2022 22:00:08 +0300</pubDate>
-      <guid>https://maabedelhay.github.io/post/first-step/first-step/</guid>
-      <description>&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/xDliIL-_vWo&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;h1 id=&#34;обзор&#34;&gt;Обзор&lt;/h1&gt;
-&lt;p&gt;Цель состоит в том, чтобы разместить статический веб-сайт на github с использованием веб-генератора Hugo и шаблонов wowchemy, которые закладывают базовый шаблон для начала работы.&lt;/p&gt;
-&lt;h1 id=&#34;последовательность-работы&#34;&gt;Последовательность работы&lt;/h1&gt;
-&lt;h2 id=&#34;установка-hugo&#34;&gt;Установка hugo&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Сначала установил последнюю версию Hugo. Обратите внимание, что нам нужна версия .tar .&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/gohugoio/hugo/releases&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Установите hugo отсюда&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;Затем переместил исполняемый файл Hugo в каталог inyo bin.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ mv hugo /usr/bin/
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;клонирование-шаблона&#34;&gt;Клонирование шаблона&lt;/h2&gt;
-&lt;p&gt;Я создал репо путем с использованием &lt;a href=&#34;https://github.com/wowchemy/starter-hugo-academic&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;starter-hugo-academic&lt;/a&gt; шаблон. Затем я клонировал репозиторий на свое устройство и назвал его блогом.&lt;/p&gt;
-&lt;h2 id=&#34;инициализация-hugo&#34;&gt;Инициализация hugo&lt;/h2&gt;
-&lt;p&gt;-Внутри каталога /blog я запустил сервер Hugo и Hugo.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ hugo
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ hugo server
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;Это запустил сайт на локальном хосте&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;создать-репозиторий-сайта&#34;&gt;создать репозиторий сайта&lt;/h2&gt;
-&lt;p&gt;Я создал репозиторий и назвал его &lt;strong&gt;username.github.io&lt;/strong&gt; , например, &lt;strong&gt;maabedelhay.github.io&lt;/strong&gt; . Затем я клонировал его на свое устройство и внутри клонированного каталога.&lt;/p&gt;
-&lt;h2 id=&#34;push--в-main&#34;&gt;Push  в main&lt;/h2&gt;
-&lt;p&gt;Последний шаг — отправить все на github, чтобы увидеть сайт в прямом эфире!&lt;/p&gt;
-&lt;h1 id=&#34;вывод&#34;&gt;Вывод&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;Точно так же у нас есть базовый личный сайт, размещенный на github. Кодирование не использовалось, просто выполнялись простые команды, и у нас появился сайт Live в Интернете.&lt;/li&gt;
-&lt;/ul&gt;
 </description>
     </item>
     

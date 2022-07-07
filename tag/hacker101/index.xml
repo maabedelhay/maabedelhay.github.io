@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hacker101 | ab3d@hay:~$ cd</title>
+    <link>https://maabedelhay.github.io/tag/hacker101/</link>
+      <atom:link href="https://maabedelhay.github.io/tag/hacker101/index.xml" rel="self" type="application/rss+xml" />
+    <description>hacker101</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 02 Jul 2022 00:19:54 +0300</lastBuildDate>
+    <image>
+      <url>https://maabedelhay.github.io/media/icon_hu98ef5755a27b69a18f879b9391920e5a_85803_512x512_fill_lanczos_center_3.png</url>
+      <title>hacker101</title>
+      <link>https://maabedelhay.github.io/tag/hacker101/</link>
+    </image>
+    
+    <item>
+      <title>Hacker101 CTF  Postbook</title>
+      <link>https://maabedelhay.github.io/post/h101-postbook/</link>
+      <pubDate>Sat, 02 Jul 2022 00:19:54 +0300</pubDate>
+      <guid>https://maabedelhay.github.io/post/h101-postbook/</guid>
+      <description>&lt;h1 id=&#34;this-is-a-write-up-on-hacker101-ctf-postbook-challenge&#34;&gt;This is a write up on hacker101 CTF &amp;ldquo;Postbook&amp;rdquo; challenge&lt;/h1&gt;
+&lt;h3 id=&#34;difficulty--easy--skills--web--name--postbook&#34;&gt;Difficulty : Easy | Skills : Web | Name : Postbook&lt;/h3&gt;
+&lt;h3 id=&#34;lets-get-started&#34;&gt;Lets get started&lt;/h3&gt;
+&lt;h3 id=&#34;flag0-----found&#34;&gt;Flag0 &amp;ndash;  Found&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;The person with user name &amp;ldquo;user&amp;rdquo; has a very easy password&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Solution:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;User name &amp;ldquo;user&amp;rdquo; password   &amp;ldquo;xxxxxxxx&amp;rdquo;.  Brute force will do the job. Use any tool you like Ffuf, Zaproxy or Burp suite ( I will have to warn you, that  the burp suite community edition intruder is crazy slow!!) . I will use  zaproxy since it is my favorite.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /post/h101-postbook/img/zaproxy_hua79dd9e20a4d984a7a5a90c095a9522e_4661_54b3ece23df62e046a301d361fac3576.webp 400w,
+               /post/h101-postbook/img/zaproxy_hua79dd9e20a4d984a7a5a90c095a9522e_4661_f31902e0055d8b152d87359746d21a7a.webp 760w,
+               /post/h101-postbook/img/zaproxy_hua79dd9e20a4d984a7a5a90c095a9522e_4661_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://maabedelhay.github.io/post/h101-postbook/img/zaproxy_hua79dd9e20a4d984a7a5a90c095a9522e_4661_54b3ece23df62e046a301d361fac3576.webp&#34;
+               width=&#34;355&#34;
+               height=&#34;142&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Intercept the login request and open it in the fuzzer tap. Choose the &amp;ldquo;password&amp;rdquo; parameter and set the payload (Any password list will do the job). This list will do the job for this challenge.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;m&#34;&gt;123456&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;m&#34;&gt;12345678&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;qwerty
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;m&#34;&gt;123456789&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;password
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;m&#34;&gt;12345&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;m&#34;&gt;1234&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;m&#34;&gt;111111&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;m&#34;&gt;1234567&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;dragon
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;m&#34;&gt;123123&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;baseball
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;abc123
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;football
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Start the fuzzer and you want to keep an eye on the response-length and HTTP code columns. The response length of a logged-in page is not the same as an error response page (In this case). The  correct password will stick out from the others with a unique response length and 302 HTTP code.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /post/h101-postbook/img/flag0_hue5d7ab47dadef752b421980d9ed0f3f2_75964_911829ca1d00b839bb07b330d665b9dc.webp 400w,
+               /post/h101-postbook/img/flag0_hue5d7ab47dadef752b421980d9ed0f3f2_75964_1cd4a2d0670733780e8ced9d9343ec54.webp 760w,
+               /post/h101-postbook/img/flag0_hue5d7ab47dadef752b421980d9ed0f3f2_75964_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://maabedelhay.github.io/post/h101-postbook/img/flag0_hue5d7ab47dadef752b421980d9ed0f3f2_75964_911829ca1d00b839bb07b330d665b9dc.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;462&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Log in to get the flag.&lt;/p&gt;
+&lt;h3 id=&#34;flag1----found&#34;&gt;Flag1 &amp;ndash; Found&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Try viewing your own post and then see if you can change the ID&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Solution:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /post/h101-postbook/img/flag1_hu87158bb579468db1eee485d7fdb9e965_44661_b10903c04aa8588cc285e09e6af3ad31.webp 400w,
+               /post/h101-postbook/img/flag1_hu87158bb579468db1eee485d7fdb9e965_44661_9f1a48323ec438f5595062af87d00fb7.webp 760w,
+               /post/h101-postbook/img/flag1_hu87158bb579468db1eee485d7fdb9e965_44661_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://maabedelhay.github.io/post/h101-postbook/img/flag1_hu87158bb579468db1eee485d7fdb9e965_44661_b10903c04aa8588cc285e09e6af3ad31.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;360&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;When viewing a post. The site take you to a &amp;ldquo;view&amp;rdquo; endpoint that take an  &amp;ldquo;id&amp;rdquo; parameter. So naturally when I saw the id parameter I changed the parameter value from id=3 to id=2 . Which displayed a private post written by the admin and gives the flag.&lt;/p&gt;
+&lt;h3 id=&#34;flag2----found&#34;&gt;Flag2 &amp;ndash; Found&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;You should definitely use &amp;ldquo;Inspect Element&amp;rdquo; on the form when creating a new post&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Solution:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /post/h101-postbook/img/flag2_hu0519663ba65bcba97f7a10757e18b3be_44883_dc81af37468e99410e96c980ce769573.webp 400w,
+               /post/h101-postbook/img/flag2_hu0519663ba65bcba97f7a10757e18b3be_44883_e9c34b32d1a6a1f41fbf01d2f21788a5.webp 760w,
+               /post/h101-postbook/img/flag2_hu0519663ba65bcba97f7a10757e18b3be_44883_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://maabedelhay.github.io/post/h101-postbook/img/flag2_hu0519663ba65bcba97f7a10757e18b3be_44883_dc81af37468e99410e96c980ce769573.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;249&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;When creating a new post. I noticed that when I choose the private posting feature, there is a  hidden input tag  with id=2. So I captured the post request and changed the &amp;ldquo;id&amp;rdquo; parameter into id=1. The response contained the flag.&lt;/p&gt;
+&lt;h3 id=&#34;flag3-----found&#34;&gt;Flag3 &amp;ndash;  Found&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;189 * 5&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Solution:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /post/h101-postbook/img/flag3_hu034d8116ff432704611107e92ea7cf6d_22328_f7ecfe316020e4508b9a9f382a8618aa.webp 400w,
+               /post/h101-postbook/img/flag3_hu034d8116ff432704611107e92ea7cf6d_22328_30014776c25a4b60e98f8524634a1e4b.webp 760w,
+               /post/h101-postbook/img/flag3_hu034d8116ff432704611107e92ea7cf6d_22328_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://maabedelhay.github.io/post/h101-postbook/img/flag3_hu034d8116ff432704611107e92ea7cf6d_22328_f7ecfe316020e4508b9a9f382a8618aa.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;353&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;URL : &lt;a href=&#34;https://xxx.ctf.hacker101.com/index.php?page=view.php&amp;amp;id=945&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://xxx.ctf.hacker101.com/index.php?page=view.php&amp;id=945&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I was sure that the number &amp;ldquo;945&amp;rdquo; have no value and I need to inject it in some parameter. First attempt wast to inject it to &amp;ldquo;view=945&amp;rdquo; parameter and it responded with a buffer that contained the flag.&lt;/p&gt;
+&lt;h3 id=&#34;flag4----found&#34;&gt;Flag4 &amp;ndash; Found&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;You can edit your own posts, what about someone else&amp;rsquo;s?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Solution:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /post/h101-postbook/img/flag4_hu56c8238a2ad37c29dc43c8a1add91eb9_51596_3eb215347c47eea62e4376fd75a6e355.webp 400w,
+               /post/h101-postbook/img/flag4_hu56c8238a2ad37c29dc43c8a1add91eb9_51596_e40a55b03c972aeade8fdf756b911964.webp 760w,
+               /post/h101-postbook/img/flag4_hu56c8238a2ad37c29dc43c8a1add91eb9_51596_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://maabedelhay.github.io/post/h101-postbook/img/flag4_hu56c8238a2ad37c29dc43c8a1add91eb9_51596_3eb215347c47eea62e4376fd75a6e355.webp&#34;
+               width=&#34;729&#34;
+               height=&#34;649&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;URL : &lt;a href=&#34;https://xxx.ctf.hacker101.com/index.php?page=edit.php&amp;amp;id=1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://xxx.ctf.hacker101.com/index.php?page=edit.php&amp;id=1&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I noticed that when I edit my post  there was an id parameter  in the page URL. So I changed it to id=1 and I got access to the admin edit post buffer.&lt;/p&gt;
+&lt;p&gt;Edited the title and  saved the post. The page showed the flag.&lt;/p&gt;
+&lt;h3 id=&#34;flag5-----found&#34;&gt;Flag5 &amp;ndash;  Found&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;The cookie allows you to stay signed in. Can you figure out how they work so you can sign in to user with ID 1?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Solution:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;So now I know that the admin cookie value &amp;ldquo;1&amp;rdquo;. The change password and user name  feature is carried out by the  the &amp;ldquo;account.php&amp;rdquo; file which only need an authenticated cookie. So from the user account I sent a request and intercepted it.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /post/h101-postbook/img/flag5-1_hu08cba00ef88e481f4ec6303da1ea9115_157455_ee4094bf60511af59243f38c535d688d.webp 400w,
+               /post/h101-postbook/img/flag5-1_hu08cba00ef88e481f4ec6303da1ea9115_157455_6b37e7af9f2eaae6ccb58b4f880c07a2.webp 760w,
+               /post/h101-postbook/img/flag5-1_hu08cba00ef88e481f4ec6303da1ea9115_157455_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://maabedelhay.github.io/post/h101-postbook/img/flag5-1_hu08cba00ef88e481f4ec6303da1ea9115_157455_ee4094bf60511af59243f38c535d688d.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;349&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Then I change the &amp;ldquo;id&amp;rdquo; cookie to the MD5 hash for number &amp;ldquo;1&amp;rdquo; which is   &lt;strong&gt;c4ca4238a0b923820dcc509a6f75849b&lt;/strong&gt; . Since there is no CSRF token or any other type of authorization tokens the request was accepted and I was able to change the admin&amp;rsquo;s password. Signed in to the admin account and The flag was waiting for me there.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /post/h101-postbook/img/flag5-2_hu0472ae479154fd0825f0c867cc5aafde_58556_13dbcd90a0549230ba061a901ac06a08.webp 400w,
+               /post/h101-postbook/img/flag5-2_hu0472ae479154fd0825f0c867cc5aafde_58556_b1123b39a7ce9a092ab6edae8cce7049.webp 760w,
+               /post/h101-postbook/img/flag5-2_hu0472ae479154fd0825f0c867cc5aafde_58556_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://maabedelhay.github.io/post/h101-postbook/img/flag5-2_hu0472ae479154fd0825f0c867cc5aafde_58556_13dbcd90a0549230ba061a901ac06a08.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;332&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;flag6-----found&#34;&gt;Flag6 &amp;ndash;  Found&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Deleting a post seems to take an ID that is not a number. Can you figure out what it is?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Solution:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;They are MD5 hashes same as in the cookies. Using crack station I found that each one correspond to a number. The delete parameter takes an MD5 hash while the view paramter take an integer number so from the view post page  we can see that the admin post id=1.&lt;/p&gt;
+&lt;p&gt;I intercepted a delete post request that was initiated by the user account.  I encoded number 1 with MD5 hash and changed the id. In the respond I received the flag from zap inform of a pop up and for some reason i was not able to copy the flag.&lt;/p&gt;
+&lt;p&gt;So i used curl to make a POST  request and it worked i received the flag in the response.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; curl &lt;span class=&#34;s1&#34;&gt;&amp;#39;https://xxxxxxxxxxx.ctf.hacker101.com/index.php?page=delete.php&amp;amp;id=c81e728d9d4c2f636f067f89cc14862c&amp;#39;&lt;/span&gt; -v  -X POST -b &lt;span class=&#34;s1&#34;&gt;&amp;#39;id=c81e728d9d4c2f636f067f89cc14862c&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# -X POST is the Http method&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# -v for verbos mode&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# -d to add the cookie for the request. In this case i added the user cookie. it is important because  if the request had the admin cookie. then it would be a normal delete request.&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Replace the URL with your UR and the is parameter with the MD5 hash of the id number of the post to delete.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /post/h101-postbook/img/flag6_huefc3c67c7248f4e909b3c0c28f35ef27_237828_632c481ad98ee2c486038735dfbfc6ec.webp 400w,
+               /post/h101-postbook/img/flag6_huefc3c67c7248f4e909b3c0c28f35ef27_237828_413c65c9f3256dd6dd3b559bce3d523e.webp 760w,
+               /post/h101-postbook/img/flag6_huefc3c67c7248f4e909b3c0c28f35ef27_237828_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://maabedelhay.github.io/post/h101-postbook/img/flag6_huefc3c67c7248f4e909b3c0c28f35ef27_237828_632c481ad98ee2c486038735dfbfc6ec.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;396&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;That&amp;rsquo;s it for the challenge. Hope you learned something. Obviously we did not perform any advanced attacks and techniques.  Using curiosity and  basic web and networking knowledge was enough for this challenge.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
