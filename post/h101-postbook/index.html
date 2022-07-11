@@ -834,8 +834,22 @@
                loading="lazy" data-zoomable /></div>
   </div></figure>
 </p>
-<p>Intercept the login request and open it in the fuzzer tap. Choose the &ldquo;password&rdquo; parameter and set the payload (Any password list will do the job).</p>
-<p>Start the fuzzer and you want to keep an eye on the response-length and HTTP code columns. The response length of a logged-in page is not the same as an error response page (In this case). The  correct password will stick out from the others with a unique response length and 302 HTTP code.</p>
+<p>Intercept the login request and open it in the fuzzer tap. Choose the &ldquo;password&rdquo; parameter and set the payload (Any password list will do the job).This list will do the job for this challenge.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="m">123456</span>
+</span></span><span class="line"><span class="cl"><span class="m">12345678</span>
+</span></span><span class="line"><span class="cl">qwerty
+</span></span><span class="line"><span class="cl"><span class="m">123456789</span>
+</span></span><span class="line"><span class="cl">password
+</span></span><span class="line"><span class="cl"><span class="m">12345</span>
+</span></span><span class="line"><span class="cl"><span class="m">1234</span>
+</span></span><span class="line"><span class="cl"><span class="m">111111</span>
+</span></span><span class="line"><span class="cl"><span class="m">1234567</span>
+</span></span><span class="line"><span class="cl">dragon
+</span></span><span class="line"><span class="cl"><span class="m">123123</span>
+</span></span><span class="line"><span class="cl">baseball
+</span></span><span class="line"><span class="cl">abc123
+</span></span><span class="line"><span class="cl">football
+</span></span></code></pre></div><p>Start the fuzzer and you want to keep an eye on the response-length and HTTP code columns. The response length of a logged-in page is not the same as an error response page (In this case). The  correct password will stick out from the others with a unique response length and 302 HTTP code.</p>
 <p>
 
 
