@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Jekyll </title>
+    <meta name="description" content="  This is a write up on hacker101 CTF “Postbook” challenge          Difficulty : Easy | Skills : Web | Name : Postbook      Nulla cillum velit ex exercitatio...">
+
+    <link rel="shortcut icon" href="/favicon.ico?" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico?" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://at.alicdn.com/t/font_8v3czwksspqlg14i.css">
+    <link rel="stylesheet" href="/css/main.css ">
+    <link rel="canonical" href="http://localhost:4000/2015/02/16/create-my-blog-with-jekyll/">
+    <link rel="alternate" type="application/rss+xml" title="Maab" href="http://localhost:4000/feed.xml ">
+
+
+
+
+
+</head>
+
+
+  <body>
+
+    <header id="top">
+    <div class="wrapper">
+        <a href="/" class="brand">Maab</a>
+        <small>Security researcger</small>
+        <button id="headerMenu" class="menu"><i class="fa fa-bars"></i></button>
+        <nav id="headerNav">
+            <ul>
+                <li>
+                    
+                    <a href="/">
+                    
+                        <i class="fa fa-home"></i>Home
+                    </a>
+                </li>
+
+                
+                    
+                    <li>
+                        
+                        <a href="/archive/">
+                        
+                            <i class="fa fa-archive"></i>Archives
+                        </a>
+                    </li>
+                    
+                
+                    
+                    <li>
+                        
+                        <a href="/category/">
+                        
+                            <i class="fa fa-th-list"></i>Categories
+                        </a>
+                    </li>
+                    
+                
+                    
+                    <li>
+                        
+                        <a href="/tag/">
+                        
+                            <i class="fa fa-tags"></i>Tags
+                        </a>
+                    </li>
+                    
+                
+                    
+                    <li>
+                        
+                        <a href="/about/">
+                        
+                            <i class="fa fa-heart"></i>About
+                        </a>
+                    </li>
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+            </ul>
+        </nav>
+    </div>
+</header>
+
+
+        <div class="page clearfix" post>
+    <div class="left">
+        <h1>Jekyll </h1>
+        <div class="label">
+
+            <div class="label-card">
+                <i class="fa fa-calendar"></i>2015-02-16
+            </div>
+
+            <div class="label-card">
+                
+            </div>
+
+            <div class="label-card">
+                
+            </div>
+
+            <div class="label-card">
+            
+
+
+<!-- <span class="point">•</span> -->
+<span class="categories">
+  <i class="fa fa-th-list"></i>
+  
+    
+        <a href="/category/#jekyll" title="Category: jekyll" rel="category">jekyll</a>
+    
+  
+
+  <!-- <span class="point">•</span> -->
+</span>
+
+
+            </div>
+
+            <div class="label-card">
+            
+<!-- <span class="point">•</span> -->
+<span class="pageTag">
+  <i class="fa fa-tags"></i>
+  
+    
+        <!--a href="/tag/#jekyll" title="Tag: jekyll" rel="tag">jekyll</a-->
+        <a href="/tag/#jekyll" title="Tag: jekyll" rel="tag">jekyll</a>&nbsp;
+    
+        <!--a href="/tag/#RubyGems" title="Tag: RubyGems" rel="tag">RubyGems</a-->
+        <a href="/tag/#RubyGems" title="Tag: RubyGems" rel="tag">RubyGems</a>
+    
+  
+
+</span>
+
+            </div>
+
+        </div>
+        <hr>
+        <article itemscope itemtype="http://schema.org/BlogPosting">
+        <ul id="markdown-toc">
+  <li><a href="#this-is-a-write-up-on-hacker101-ctf-postbook-challenge" id="markdown-toc-this-is-a-write-up-on-hacker101-ctf-postbook-challenge">This is a write up on hacker101 CTF “Postbook” challenge</a>    <ul>
+      <li><a href="#difficulty--easy--skills--web--name--postbook" id="markdown-toc-difficulty--easy--skills--web--name--postbook">Difficulty : Easy | Skills : Web | Name : Postbook</a></li>
+      <li><a href="#lets-get-started" id="markdown-toc-lets-get-started">Lets get started</a></li>
+      <li><a href="#flag0---found" id="markdown-toc-flag0---found">Flag0 –  Found</a></li>
+      <li><a href="#flag1--found" id="markdown-toc-flag1--found">Flag1 – Found</a></li>
+      <li><a href="#flag2--found" id="markdown-toc-flag2--found">Flag2 – Found</a></li>
+      <li><a href="#flag3---found" id="markdown-toc-flag3---found">Flag3 –  Found</a></li>
+      <li><a href="#flag4--found" id="markdown-toc-flag4--found">Flag4 – Found</a></li>
+      <li><a href="#flag5---found" id="markdown-toc-flag5---found">Flag5 –  Found</a></li>
+      <li><a href="#flag6---found" id="markdown-toc-flag6---found">Flag6 –  Found</a></li>
+    </ul>
+  </li>
+</ul>
+
+<p>Nulla cillum velit ex exercitation pariatur anim eu.。</p>
+
+<h1 id="this-is-a-write-up-on-hacker101-ctf-postbook-challenge">This is a write up on hacker101 CTF “Postbook” challenge</h1>
+
+<h3 id="difficulty--easy--skills--web--name--postbook">Difficulty : Easy | Skills : Web | Name : Postbook</h3>
+
+<h3 id="lets-get-started">Lets get started</h3>
+
+<h3 id="flag0---found">Flag0 –  Found</h3>
+
+<ul>
+  <li>The person with user name “user” has a very easy password…</li>
+</ul>
+
+<p><strong>Solution:</strong></p>
+
+<p>User name “user” password   “xxxxxxxx”.  Brute force will do the job. Use any tool you like Ffuf, Zaproxy or Burp suite ( I will have to warn you, that  the burp suite community edition intruder is crazy slow!!) . I will use  zaproxy since it is my favorite.</p>
+
+<p><img src="img/zaproxy.png" alt="" /></p>
+
+<p>Intercept the login request and open it in the fuzzer tap. Choose the “password” parameter and set the payload (Any password list will do the job).This list will do the job for this challenge.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>123456
+12345678
+qwerty
+123456789
+password
+12345
+1234
+111111
+1234567
+dragon
+123123
+baseball
+abc123
+football
+</code></pre></div></div>
+
+<p>Start the fuzzer and you want to keep an eye on the response-length and HTTP code columns. The response length of a logged-in page is not the same as an error response page (In this case). The  correct password will stick out from the others with a unique response length and 302 HTTP code.</p>
+
+<p><img src="img/flag0.png" alt="" /></p>
+
+<p>Log in to get the flag.</p>
+
+<h3 id="flag1--found">Flag1 – Found</h3>
+
+<ul>
+  <li>Try viewing your own post and then see if you can change the ID</li>
+</ul>
+
+<p><strong>Solution:</strong></p>
+
+<p><img src="img/flag1.png" alt="" /></p>
+
+<p>When viewing a post. The site take you to a “view” endpoint that take an  “id” parameter. So naturally when I saw the id parameter I changed the parameter value from id=3 to id=2 . Which displayed a private post written by the admin and gives the flag.</p>
+
+<h3 id="flag2--found">Flag2 – Found</h3>
+
+<ul>
+  <li>You should definitely use “Inspect Element” on the form when creating a new post</li>
+</ul>
+
+<p><strong>Solution:</strong></p>
+
+<p><img src="img/flag2.png" alt="" /></p>
+
+<p>When creating a new post. I noticed that when I choose the private posting feature, there is a  hidden input tag  with id=2. So I captured the post request and changed the “id” parameter into id=1. The response contained the flag.</p>
+
+<h3 id="flag3---found">Flag3 –  Found</h3>
+
+<ul>
+  <li>189 * 5</li>
+</ul>
+
+<p><strong>Solution:</strong></p>
+
+<p><img src="img/flag3.png" alt="" /></p>
+
+<blockquote>
+  <p>URL : https://xxx.ctf.hacker101.com/index.php?page=view.php&amp;id=945</p>
+</blockquote>
+
+<p>I was sure that the number “945” have no value and I need to inject it in some parameter. First attempt wast to inject it to “view=945” parameter and it responded with a buffer that contained the flag.</p>
+
+<h3 id="flag4--found">Flag4 – Found</h3>
+
+<ul>
+  <li>You can edit your own posts, what about someone else’s?</li>
+</ul>
+
+<p><strong>Solution:</strong></p>
+
+<p><img src="img/flag4.png" alt="" /></p>
+
+<blockquote>
+  <p>URL : https://xxx.ctf.hacker101.com/index.php?page=edit.php&amp;id=1</p>
+</blockquote>
+
+<p>I noticed that when I edit my post  there was an id parameter  in the page URL. So I changed it to id=1 and I got access to the admin edit post buffer.</p>
+
+<p>Edited the title and  saved the post. The page showed the flag.</p>
+
+<h3 id="flag5---found">Flag5 –  Found</h3>
+
+<ul>
+  <li>The cookie allows you to stay signed in. Can you figure out how they work so you can sign in to user with ID 1?</li>
+</ul>
+
+<p><strong>Solution:</strong></p>
+
+<p>So now I know that the admin cookie value “1”. The change password and user name  feature is carried out by the  the “account.php” file which only need an authenticated cookie. So from the user account I sent a request and intercepted it.</p>
+
+<p><img src="img/flag5-1.png" alt="" /></p>
+
+<p>Then I change the “id” cookie to the MD5 hash for number “1” which is   <strong>c4ca4238a0b923820dcc509a6f75849b</strong> . Since there is no CSRF token or any other type of authorization tokens the request was accepted and I was able to change the admin’s password. Signed in to the admin account and The flag was waiting for me there.</p>
+
+<p><img src="img/flag5-2.png" alt="" /></p>
+
+<h3 id="flag6---found">Flag6 –  Found</h3>
+
+<ul>
+  <li>Deleting a post seems to take an ID that is not a number. Can you figure out what it is?</li>
+</ul>
+
+<p><strong>Solution:</strong></p>
+
+<p>They are MD5 hashes same as in the cookies. Using crack station I found that each one correspond to a number. The delete parameter takes an MD5 hash while the view paramter take an integer number so from the view post page  we can see that the admin post id=1.</p>
+
+<p>I intercepted a delete post request that was initiated by the user account.  I encoded number 1 with MD5 hash and changed the id. In the respond I received the flag from zap inform of a pop up and for some reason i was not able to copy the flag.</p>
+
+<p>So i used curl to make a POST  request and it worked i received the flag in the response.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code> curl <span class="s1">'https://xxxxxxxxxxx.ctf.hacker101.com/index.php?page=delete.php&amp;id=c81e728d9d4c2f636f067f89cc14862c'</span> <span class="nt">-v</span>  <span class="nt">-X</span> POST <span class="nt">-b</span> <span class="s1">'id=c81e728d9d4c2f636f067f89cc14862c'</span>
+
+<span class="c"># -X POST is the Http method</span>
+<span class="c"># -v for verbos mode</span>
+<span class="c"># -d to add the cookie for the request. In this case i added the user cookie. it is important because  if the request had the admin cookie. then it would be a normal delete request.</span>
+
+</code></pre></div></div>
+
+<ul>
+  <li>Replace the URL with your URL and the “id=” parameter with the MD5 hash of the id number of the post to delete.</li>
+</ul>
+
+<p><img src="img/flag6.png" alt="" /></p>
+
+<p>That’s it for the challenge. Hope you learned something. Obviously we did not perform any advanced attacks and techniques.  Using curiosity and  basic web and networking knowledge was enough for this challenge.</p>
+
+
+        </article>
+        <hr>
+
+        
+        
+            
+            
+                
+                    
+                
+                    
+                
+            
+                
+                    
+                
+                    
+                
+            
+                
+                    
+                
+                    
+                
+            
+                
+                    
+                
+                    
+                
+            
+        
+            
+            
+                
+                    
+                        
+                        <h2 id="similar_posts">Similar Posts</h2>
+                        <ul>
+                        
+                        <li class="relatedPost">
+                            <a href="/2015/02/10/welcome-to-jekyll/">hello jekyll!
+                            
+                            </a>
+                        </li>
+                        
+                        
+                    
+                
+                    
+                
+            
+        
+        
+            </ul>
+        
+
+        <div class="post-recent">
+    <div class="pre">
+        
+        <p><strong>Previous</strong> <a href="/2015/02/10/welcome-to-jekyll/">hello jekyll!</a></p>
+        
+    </div>
+    <div class="nex">
+
+        
+        <p><strong>Next</strong> <a href="/2015/03/21/teach-girlfriend-html-css/">Teach Girlfriend to make a Web Pages</a></p>
+        
+    </div>
+</div>
+
+
+        <!-- <h2 id="comments">Comments</h2>
+        
+
+
+ -->
+
+
+    </div>
+    <button class="anchor"><i class="fa fa-anchor"></i></button>
+    <div class="right">
+        <div class="wrap">
+
+            <!-- Content -->
+            <div class="side content">
+                <div>
+                    Content
+                </div>
+                <ul id="content-side" class="content-ul">
+                    
+                    <li><a href="#similar_posts">Similar Posts</a></li>
+                    
+                    <li><a href="#comments">Comments</a></li>
+                </ul>
+            </div>
+            <!-- 其他div框放到这里 -->
+            <!-- <div class="side">bbbb</div> -->
+        </div>
+    </div>
+</div>
+<script>
+/**
+ * target _blank
+ */
+(function() {
+    var aTags = document.querySelectorAll('article a:not([id])')
+    for (var i = 0; i < aTags.length; i++) {
+        aTags[i].setAttribute('target', '_blank')
+    }
+}());
+</script>
+<script src="/js/pageContent.js " charset="utf-8"></script>
+
+
+    <footer class="site-footer">
+
+
+    <div class="wrapper">
+
+        <p class="description">
+             description footer cool 
+        </p>
+        <p class="contact">
+            Contact me at: 
+            <a href="https://github.com/maabedelhay" title="GitHub"><i class="fa fa-github" aria-hidden="true"></i></a>  
+            <a href="mailto:mohamad.abedhay1@gmail.com" title="email"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>    
+            <a href="https://twitter.com/ab3d_hay" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>     
+        </p>
+
+        <p class="power">
+            <span>
+                Site powered by <a href="https://jekyllrb.com/">Jekyll</a> & <a href="https://pages.github.com/">Github Pages</a>.
+            </span>
+            <span>
+                Theme designed by <a href="https://github.com/Gaohaoyang">HyG</a>.
+            </span>
+        </p>
+    </div>
+</footer>
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+    <div class="back-to-top">
+    <a href="#top" data-scroll>
+        <i class="fa fa-arrow-up" aria-hidden="true"></i>
+    </a>
+</div>
+
+    <script src=" /js/main.js " charset="utf-8"></script>
+    <script src=" /js/smooth-scroll.min.js " charset="utf-8"></script>
+    <script type="text/javascript">
+      smoothScroll.init({
+        speed: 500, // Integer. How fast to complete the scroll in milliseconds
+        easing: 'easeInOutCubic', // Easing pattern to use
+        offset: 20, // Integer. How far to offset the scrolling anchor location in pixels
+      });
+    </script>
+    <!-- <script src=" /js/scroll.min.js " charset="utf-8"></script> -->
+  </body>
+
+</html>

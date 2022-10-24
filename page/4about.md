@@ -9,24 +9,8 @@ type: page
 * content
 {:toc}
 
-## 关于我
+I am an Information Security researcher, with a good technical background and a highly analytical mind. I have been involved in the security filed for the last 2 years, constantly learning and researching. 
 
-<!-- <iframe src="https://githubbadge.appspot.com/gaohaoyang?s=1" style="border: 0;height: 142px;width: 200px;overflow: hidden;" frameBorder="0"></iframe> -->
+<!-- I have solid experience working with Windows, Linux and UNIX operating systems. Programming  wise I am familiar with JavaScript, GO, PHP, C which I can understand and analyze. While languages that I  understand and write programs with are Python, C++, Bash Script, SED, AWK. I have wide networking knowledge and understand Network Layers, OSI Model, TCP/IP Model, Interfaces and Protocols (ICMP, TCP, UDB, HTTP/S, FTP, DNS, SSH, SSL, TLS, OAuth, SAML, LDAP).
 
-## 联系我
-
-* GitHub：[Gaohaoyang](https://github.com/Gaohaoyang)
-* email：gaohaoyang126@126.com
-* [Weibo](http://weibo.com/3115521wh)
-* [知乎](https://www.zhihu.com/people/gaohaoyang)
-* [Facebook](https://www.facebook.com/gaohaoyang.water)
-* [豆瓣](https://www.douban.com/people/42525035/)
-* [豆瓣音乐人-浩阳的小站](https://site.douban.com/haoyangaiyinyue/)
-
-## 友情链接
-
-[羡辙杂俎](http://zhangwenli.com/blog) \| [Anotherhome](https://www.anotherhome.net) \| [Reverland](http://reverland.org/) \| [ZhiLi](http://lizhipower.github.io/) \| [Simmer](http://simmer-jun.github.io/) \| [awthink](http://awthink.net/) \| [Aralic](http://aralic.github.io/) \| [zchen9](http://www.chen9.info/) \| [wuhuaji](http://wuhuaji.me/) \| [lisheng](http://www.lishengcn.cn/) \| [薛彬XueBin](http://axuebin.com/blog/) \| [TBOOX](http://www.tboox.org/cn/) \|  [Ling](http://linglinyp.com/)
-
-## Comments
-
-{% include comments.html %}
+ Hacking is my biggest strength, I Started with learning about common vulnerabilities and exploiting them using Metasploit, Nmap, hydra.. and vulnerable virtual machines. Then I moved to web application hacking where I learned OWASP top 10 and other security vulnerabilities while practicing on hacking platforms like Hackthebox, TryHackMe, pentester lab and vulnerable web apps like DVWA, bWAPP and Juice shop on top of that I played CTF's like picoCTF 2019/2022 and hackerone101 CTF.  -->
