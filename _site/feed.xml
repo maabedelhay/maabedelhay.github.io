@@ -1,75 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Maab</title>
+    <title>TIF</title>
     <description></description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 24 Oct 2022 14:52:16 +0300</pubDate>
-    <lastBuildDate>Mon, 24 Oct 2022 14:52:16 +0300</lastBuildDate>
+    <pubDate>Tue, 25 Oct 2022 23:04:39 +0300</pubDate>
+    <lastBuildDate>Tue, 25 Oct 2022 23:04:39 +0300</lastBuildDate>
     <generator>Jekyll v4.3.0</generator>
     
       <item>
-        <title>Teach Girlfriend to make a Web Pages</title>
-        <description>
-My girlfriend is learning html and css recently. I told her to follow the video. Here, I recommend a video in Chinese that suite for fresh learners. The name of course is Getting HTML web pages dev in 8 hours  . I watched this video at very first time. The teacher named Eighteen Swallows . He teached very clear even himself being on screen to show what is float or box-model.
-</description>
-        <pubDate>Sat, 21 Mar 2015 18:14:54 +0300</pubDate>
-        <link>http://localhost:4000/2015/03/21/teach-girlfriend-html-css/</link>
-        <guid isPermaLink="true">http://localhost:4000/2015/03/21/teach-girlfriend-html-css/</guid>
-        
-        <category>BootStrap</category>
-        
-        <category>HTML</category>
-        
-        <category>CSS</category>
-        
-        <category>Zhihu</category>
-        
-        
-        <category>Bootstrap</category>
-        
-      </item>
-    
-      <item>
-        <title>Jekyll </title>
-        <description>&lt;ul id=&quot;markdown-toc&quot;&gt;
-  &lt;li&gt;&lt;a href=&quot;#this-is-a-write-up-on-hacker101-ctf-postbook-challenge&quot; id=&quot;markdown-toc-this-is-a-write-up-on-hacker101-ctf-postbook-challenge&quot;&gt;This is a write up on hacker101 CTF “Postbook” challenge&lt;/a&gt;    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#difficulty--easy--skills--web--name--postbook&quot; id=&quot;markdown-toc-difficulty--easy--skills--web--name--postbook&quot;&gt;Difficulty : Easy | Skills : Web | Name : Postbook&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-Nulla cillum velit ex exercitation pariatur anim eu.。
-
-&lt;h1 id=&quot;this-is-a-write-up-on-hacker101-ctf-postbook-challenge&quot;&gt;This is a write up on hacker101 CTF “Postbook” challenge&lt;/h1&gt;
-
-&lt;h3 id=&quot;difficulty--easy--skills--web--name--postbook&quot;&gt;Difficulty : Easy | Skills : Web | Name : Postbook&lt;/h3&gt;
-</description>
-        <pubDate>Mon, 16 Feb 2015 01:14:54 +0300</pubDate>
-        <link>http://localhost:4000/2015/02/16/create-my-blog-with-jekyll/</link>
-        <guid isPermaLink="true">http://localhost:4000/2015/02/16/create-my-blog-with-jekyll/</guid>
-        
-        <category>jekyll</category>
-        
-        <category>RubyGems</category>
-        
-        
-        <category>jekyll</category>
-        
-      </item>
-    
-      <item>
-        <title>hello jekyll!</title>
+        <title>Tweak it bro</title>
         <description>jekyll</description>
-        <pubDate>Tue, 10 Feb 2015 18:14:54 +0300</pubDate>
-        <link>http://localhost:4000/2015/02/10/welcome-to-jekyll/</link>
-        <guid isPermaLink="true">http://localhost:4000/2015/02/10/welcome-to-jekyll/</guid>
+        <pubDate>Mon, 24 Oct 2022 22:41:00 +0300</pubDate>
+        <link>http://localhost:4000/2022/10/24/tweak-it-broothor-jekyll-new-thisisgood/</link>
+        <guid isPermaLink="true">http://localhost:4000/2022/10/24/tweak-it-broothor-jekyll-new-thisisgood/</guid>
         
-        <category>jekyll</category>
+        <category>good</category>
         
         
-        <category>jekyll</category>
+        <category>emotion</category>
+        
+      </item>
+    
+      <item>
+        <title>Happy</title>
+        <description>jekyll</description>
+        <pubDate>Mon, 24 Oct 2022 22:28:15 +0300</pubDate>
+        <link>http://localhost:4000/2022/10/24/thisisgood/</link>
+        <guid isPermaLink="true">http://localhost:4000/2022/10/24/thisisgood/</guid>
+        
+        <category>good</category>
+        
+        
+        <category>emotion</category>
+        
+      </item>
+    
+      <item>
+        <title>testing ou</title>
+        <description>jekyll</description>
+        <pubDate>Mon, 24 Oct 2022 18:14:54 +0300</pubDate>
+        <link>http://localhost:4000/2022/10/24/test101/</link>
+        <guid isPermaLink="true">http://localhost:4000/2022/10/24/test101/</guid>
+        
+        <category>machine</category>
+        
+        
+        <category>car</category>
         
       </item>
     
