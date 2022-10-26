@@ -11,10 +11,11 @@ type: page
 
 
 
-I am Mohamad Abed El Hay a student and  information security researcher.
+I am Mohamad Abed El Hay a student and  information security researcher. 
 
+<sub><sup>Octobre 26, 2022 at 20:05</sup></sub>
 
-> edited on 2022-10-25
+<!-- edited on 2022-10-25 -->
  <!-- with a good technical background and a highly analytical mind. I have been involved in the security filed for the last 2 years, constantly learning and researching.  -->
 
 <!-- I have solid experience working with Windows, Linux and UNIX operating systems. Programming  wise I am familiar with JavaScript, GO, PHP, C which I can understand and analyze. While languages that I  understand and write programs with are Python, C++, Bash Script, SED, AWK. I have wide networking knowledge and understand Network Layers, OSI Model, TCP/IP Model, Interfaces and Protocols (ICMP, TCP, UDB, HTTP/S, FTP, DNS, SSH, SSL, TLS, OAuth, SAML, LDAP).
