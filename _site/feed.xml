@@ -5,9 +5,43 @@
     <description></description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 26 Oct 2022 20:15:18 +0300</pubDate>
-    <lastBuildDate>Wed, 26 Oct 2022 20:15:18 +0300</lastBuildDate>
-    <generator>Jekyll v4.3.0</generator>
+    <pubDate>Sat, 15 Jul 2023 12:51:51 +0300</pubDate>
+    <lastBuildDate>Sat, 15 Jul 2023 12:51:51 +0300</lastBuildDate>
+    <generator>Jekyll v4.3.2</generator>
+    
+      <item>
+        <title>Just another test</title>
+        <description>&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#day-one-amr-thabet&quot; id=&quot;markdown-toc-day-one-amr-thabet&quot;&gt;day one (Amr Thabet)&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#what-is-a-malware-family&quot; id=&quot;markdown-toc-what-is-a-malware-family&quot;&gt;What is a malware family?&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;img src=&quot;/assets/homeboy/back2.jpg&quot; alt=&quot;drawing&quot; /&gt;
+
+&lt;h1 id=&quot;day-one-amr-thabet&quot;&gt;day one (Amr Thabet)&lt;/h1&gt;
+
+Created time: October 21, 2022 4:11 PM
+Status: Done
+Tags: Done
+
+&lt;h2 id=&quot;what-is-a-malware-family&quot;&gt;What is a malware family?&lt;/h2&gt;
+
+&lt;!-- &lt;img style=&quot;float:right;filter: grayscale(100%);width:40%&quot; src=&quot;/assets/homeboy/fam.png&quot; /&gt; --&gt;
+
+A malware family is &lt;strong&gt;a program or set of associated programs with enough “code overlap” to be considered part of the same group&lt;/strong&gt;. Grouping them as a family broadens the scope of a single piece of  malware as it alters over time, creating a new piece of malware with  distinct family traits.
+</description>
+        <pubDate>Tue, 20 Jun 2023 12:00:00 +0300</pubDate>
+        <link>http://localhost:4000/2023/06/20/homeboy-post/</link>
+        <guid isPermaLink="true">http://localhost:4000/2023/06/20/homeboy-post/</guid>
+        
+        <category>tags</category>
+        
+        
+        <category>test</category>
+        
+      </item>
     
   </channel>
 </rss>

@@ -15,11 +15,10 @@ class Jekyll < Thor
     open(filename, 'w') do |post|
     post.puts "---"
     post.puts "layout: post"
-    post.puts "title:"
-	  post.puts "date: y-m-d h:m:s"
+    post.puts "title: #{title}"
+	  post.puts "date: #{date} h:m:s"
 	  post.puts "categories:"
     post.puts "tags:"
-	  post.puts "excerpt: jekyll"
     post.puts "author: Mabd"
     post.puts "---"
     post.puts "* content"

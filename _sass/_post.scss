@@ -10,29 +10,29 @@
             margin-right: 15px;
             .point {
                 padding: 0 10px;
-                color: #9d9d9d;
+                color: #ffffff;
             }
             i {
                 padding-right: 5px;
-                color: #6b6a6a;
+                color: #a3a3a3;
             }
         }
     }
     a {
-        color: #4d6dad;
+        color: #2b60cc;
         transition: 0.5s ease;
         &:hover {
-            color: #223253;
-            background-color: #f4efeb;
+            color: #1e3157;
+            // background-color: #757575;
         }
     }
     .left {
         ul {
             >h2 {
-                color: #333;
+                color: #ffffff;
             }
             li {
-                color: #333;
+                color: #ffffff;
                 margin: 0;
             }
         }
