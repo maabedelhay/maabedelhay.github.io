@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Just another test
-date: 2023-06-20  9:00:00
+date: 2022-10-21  9:00:00
 categories: test
 tags: tags
 author: Mabd
@@ -10,14 +10,10 @@ author: Mabd
 {:toc}
 
 
-<img src="/assets/homeboy/back2.jpg" alt="drawing" />
 
 
 # day one (Amr Thabet)
 
-Created time: October 21, 2022 4:11 PM
-Status: Done
-Tags: Done
 
 
 ## What is a malware family?
@@ -29,6 +25,8 @@ A malware family is **a program or set of associated programs with enough "code 
 
 
 ## Types of Malware applications
+
+<img src="/assets/homeboy/back2.jpg" alt="drawing" />
 
 ### 1. Trojans
 
