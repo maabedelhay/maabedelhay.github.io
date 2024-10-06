@@ -12,20 +12,19 @@ type: page
 <!-- ![alt](../profile.png) -->
 <img src="../profile.png" alt="drawing" style="width:25%;border-radius: 50%;"/>
 
-I am Mohamad Abd El Hay a student and information security enthusiast. 
+I am Mohamad a student and information security enthusiast. 
 
 Current focus:
 
-- Vulnerability Research
 - Malware Analysis
 - Reverse Engineering
 - Threat Intelligence
 
-Link to my [resume][1]
+<!-- Link to my [resume][1]
 
-[1]:{{ site.url }}/download/Mohamad_Abed_El_Hay.pdf
+[1]:{{ site.url }}/download/Mohamad_Abed_El_Hay.pdf -->
 
-<sub><sup>April 04, 2024 at 20:05</sup></sub>
+<!-- <sub><sup>April 04, 2024 at 20:05</sup></sub> -->
 
 <!-- edited on 2022-10-25 -->
  <!-- with a good technical background and a highly analytical mind. I have been involved in the security filed for the last 2 years, constantly learning and researching.  -->
