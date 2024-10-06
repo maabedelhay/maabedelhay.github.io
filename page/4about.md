@@ -12,14 +12,14 @@ type: page
 <!-- ![alt](../profile.png) -->
 <img src="../profile.png" alt="drawing" style="width:25%;border-radius: 50%;"/>
 
-I am Mohamad Abed El Hay a Palestinian student and information security enthusiast. 
+I am Mohamad Abd El Hay a student and information security enthusiast. 
 
 Current focus:
 
 - Vulnerability Research
 - Malware Analysis
 - Reverse Engineering
-- Threat Hunting
+- Threat Intelligence
 
 Link to my [resume][1]
 

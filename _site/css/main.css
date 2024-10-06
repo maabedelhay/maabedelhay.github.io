@@ -79,7 +79,7 @@ h6 {
   margin: 10px 0 5px; }
 
 blockquote {
-  color: #444;
+  color: #837800;
   border-left: 5px solid #D6DBDF;
   padding-left: 15px;
   background: rgba(112, 138, 153, 0.1);
@@ -89,22 +89,21 @@ blockquote {
     margin: 0; }
 
 table {
-  border-top: 2px solid #777;
   border-bottom: 2px solid #777;
   margin: 8px 0;
   border-collapse: collapse; }
   table thead {
-    border-bottom: 1px solid #777;
-    background-color: #aaa;
-    color: #fff; }
+    background-color: #0a0c0c;
+    color: #f1f1f1; }
   table th {
     padding: 2px 10px;
     text-align: left; }
   table tbody tr:nth-of-type(2n+1) {
-    background-color: #f8f8fd; }
+    background-color: #0a0c0c; }
   table tbody tr:nth-of-type(2n) {
-    background-color: #e5eaed; }
+    background-color: #0a0c0c; }
   table td {
+    color: #f1f1f1;
     padding: 2px 10px; }
 
 p {

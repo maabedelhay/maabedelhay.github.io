@@ -1,0 +1,170 @@
+---
+layout: post
+title: John Haddix's "Bug Hunter's Methodology v4.0 - Recon Edition" 
+date: 2021-10-25 22:00:00
+categories: Notes
+tags: Recon Methodology WebHacking
+author: Mabd
+---
+* content
+{:toc}
+
+
+
+
+
+
+
+This document contains notes I took while studying John Haddix's "Bug Hunter's Methodology v4.0 - Recon Edition" (2020). It is not a standalone article or tutorial. here is the [link](https://youtu.be/p4JgIu1mceI?si=gu_rJcR4jUrN4o8C).
+
+## 1. Root domains enumeration
+This step of the reconicense focuses on finding root domains for the target. This is especialy usefull when dealling with big targets. 
+### 1.1 ASN enumeration
+Analyzing an Autonomous System Number (ASN) can reveal a range of IP addresses associated with an organization. Scanning this range with a port scanner might uncover additional subdomains.
+
+To identify additional seed domains, we'll conduct a comprehensive port scan of the entire Autonomous System Number (ASN).
+
+We'll extract any root domains encountered within SSL certificates.
+
+### 1.2 Revers whois
+
+using whoxy.xom, there will be all the history and the accuesisions wish will give domain regestered
+
+ If something is registeredit doesnt mean that it is live alot of companies parke some doamins
+
+### 1.3 Google Fuzzing:
+
+* copyright text for example **(" © 2019 twitch interactive, Inc" inurl:twitch)**
+
+* terms of service text
+
+* privacy policy text
+
+## 2. Subdomains enumeration
+
+### 2.1  Linked JS Discovery
+
+To further expand our target scope, we can analyze all links within our primary target. Burp Suite Pro is a powerful tool for this task.
+
+By visiting a seed or root domain and recursively spidering all links, we can use regular expressions to identify relevant URLs and explore them systematically. This approach allows us to discover both subdomains and root domains.
+
+**Alternative Tools:** Gospider and Hakrawler can be used as alternatives to Burp Suite Pro for linked discovery.
+
+**Recursive Spidering:** The essence of linked discovery lies in the recursive use of a web spider. Gospider is a particularly versatile spider well-suited for general automation.
+
+**Subdomainaizer:** This specialized tool offers three key functions for JavaScript analysis:
+
+1.  **Subdomain Discovery:** Identifies subdomains referenced within JavaScript files.
+2.  **Cloud Service Detection:** Locates cloud services mentioned in JavaScript code.
+3.  **Sensitive Data Detection:** Employs the Shannon Entropy formula to uncover potentially sensitive information hidden within JavaScript files.
+
+Subdomainaizer analyzes a single web page, scanning for JavaScript files to process.
+
+## 3. Subdomain scraping
+Subdomain scraping automates the process of gathering domain information from various publicly available sources. Traditionally, this involved manual effort, scouring infrastructure sources like Censys and DNSDB, search engines like Google and Bing, certificate authorities (CAs) such as crt.sh and CertSpotter, and security platforms like SecurityTrails and VirusTotal.
+
+**Example of searching from google:**
+
+```
+site:twitch.tv -www.twitch.tv
+site:twitch.tv -www.twitch.tv -watch.twitch.tv
+site:twitch.tv -www.twitch.tv -watch.twitch.tv -dev.twitch.tv
+```
+**Examples of Subdomain Scraping Tools:**
+
+-   **Amass:** A powerful tool excelling in subdomain enumeration. It automates the scraping process, collecting data from various sources and presenting it in a consolidated format.
+-   **Subfinder V2:** Another valuable tool, not only scraping for subdomains, but also exploring public Github repositories to identify potential subdomain leaks.
+
+
+## 4. Subdomain brute force
+
+While subdomain brute-forcing was initially the primary method, we now transition to using Amass to intelligently guess live subdomains.
+
+### 4.1 Subdomain bruiting
+
+**Amass** offers brute force via **"enum"** tool using the **"brute"** switch
+
+```bash
+
+amass enum -brute -d twitch.tv -src
+
+```
+It has built in list, but you can specify your own list
+
+```bash
+
+amass enum -brute -d twitch.tv -rf resolvers.txt -w bruteforce.list
+
+```
+
+**Shuffledns** could be a good option if you are resource limited with ram and CPU
+
+A multi resolver, threaded subdomain brute is only as good as it's word list
+
+### 4.2 Alternate scanning
+
+During subdomain scraping, you might observe naming patterns within discovered subdomains. Altdns leverages these patterns to generate additional potential subdomains. By analyzing existing subdomains, Altdns creates permutations and alterations, expanding your subdomain list and increasing the chances of discovering hidden subdomains.
+
+**Example:**
+
+If you encounter subdomains like dev1.company.com and dev2.company.com, Altdns might generate permutations such as:
+
+```
+dev1.company.com
+dev2.company.com
+dev-1.company.com
+Dev-2.company.com
+Dev.1.company.com
+dev.2company.com
+```
+By systematically testing these permutations, you can potentially uncover additional valid subdomains that might have been missed through other enumeration methods.
+> It woth minsioning that amass now contain logic to check for these "permutations"
+
+## 5. Services enumeration
+
+### 5.1  Port Analysis (masscan)
+
+Masscan is faster for general __"finding-open-ports-on-tcp"__. Chaining, masscan's output to then be nmap'ed can save a lot of time. Masscan achieve this speed with a re-written TCP/IP stack, true multi threading, and written in C.
+
+Syntax for scanning a list of IP's:
+
+```bash
+masscan -p1-65535 -iL $ipFile --max-rate 1800 -oG $outPutFile.logic
+```
+> Linke for masscan article [https://danielmiesslger.com/study/masscan/](https://danielmiesslger.com/study/masscan/)
+
+### 5.2 Service Scanning (brutespray)
+
+**masscan** --> **nmap** services scan -oG --> **brutespray** credential bruteforce
+
+So the full image we employ Masscan to efficiently scan the IP addresses for open ports. Once we've identified open ports, we use Nmap to determine the services running on them. Finally, we can leverage Brutespray, powered by Medusa, to attempt brute-force attacks against common default credentials on the identified services
+
+### 5.3 GitHub Dorking (manual)
+
+Many organizations inadvertently expose sensitive information online through public GitHub repositories. Tools exist to search these repositories for subdomain leaks, credentials, or other vulnerabilities.
+
+### 5.4 Screenshotting
+
+- Eyewitness
+
+- Aquatone
+
+- httpscreenshot
+
+At this point we have alot of attack surface. j use eyewitness because it will prepend both the htpp and https protocol for each domain we have observed.
+
+## 6.  Automation
+
+### Open sourced recon automation
+
+|C-Tier   | ultimate_recon.sh  | bountyREcon  | Hunter  |
+|---|---|---|---|
+| B-Tier  |  lazyRecon  |  oneforall | domained  |
+|  A-Tier | recon-pipeline  |  indomain | X  |
+
+
+
+
+_While these notes provide a solid foundation, they only scratch the surface of this complex subject. If you're eager to learn more, I highly recommend seeking out additional resources._
+
+_This has been a brief overview of the key points from the original material. If you're interested in a more in-depth exploration, I encourage you to check it out for yourself._

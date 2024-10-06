@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-HW1TLR9VYX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-HW1TLR9VYX');
+</script>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>John Haddix&#39;s &quot;Bug Hunter&#39;s Methodology v4.0 - Recon Edition&quot;</title>
+    <meta name="description" content="">
+
+    <link rel="shortcut icon" href="/favicon.ico?" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico?" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://at.alicdn.com/t/font_8v3czwksspqlg14i.css">
+    <link rel="stylesheet" href="/css/main.css ">
+    <link rel="canonical" href="http://localhost:4000/2021/10/26/myblog/">
+    <link rel="alternate" type="application/rss+xml" title="" href="http://localhost:4000/feed.xml ">
+
+
+
+
+
+</head>
+
+
+  <body>
+
+    <header id="top">
+    <div class="wrapper">
+        <a href="/" class="brand"></a>
+        <small></small>
+        <button id="headerMenu" class="menu"><i class="fa fa-bars"></i></button>
+        
+        <nav id="headerNav">
+            <ul>
+                <li>
+                    
+                    <a href="/">
+                    
+                        <i class="fa fa-home"></i>Home
+                    </a>
+                </li>
+
+                
+                    
+                    <li>
+                        
+                        <a href="/archive/">
+                        
+                            <i class="fa fa-archive"></i>Archives
+                        </a>
+                    </li>
+                    
+                
+                    
+                    <li>
+                        
+                        <a href="/category/">
+                        
+                            <i class="fa fa-th-list"></i>Categories
+                        </a>
+                    </li>
+                    
+                
+                    
+                    <li>
+                        
+                        <a href="/tag/">
+                        
+                            <i class="fa fa-tags"></i>Tags
+                        </a>
+                    </li>
+                    
+                
+                    
+                    <li>
+                        
+                        <a href="/about/">
+                        
+                            <i class="fa fa-user-circle"></i>About
+                        </a>
+                    </li>
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+            </ul>
+        </nav>
+    </div>
+</header>
+
+
+        <div class="page clearfix" post>
+    <div class="left">
+        <h1>John Haddix's "Bug Hunter's Methodology v4.0 - Recon Edition"</h1>
+        <div class="label">
+
+            <div class="label-card">
+                <i class="fa fa-calendar"></i>2021-10-26
+            </div>
+
+            <div class="label-card">
+                <i class="fa fa-user"></i>Mabd
+                
+            </div>
+
+            <div class="label-card">
+                
+            </div>
+
+            <div class="label-card">
+            
+
+
+<!-- <span class="point">•</span> -->
+<span class="categories">
+  <i class="fa fa-th-list"></i>
+  
+    
+        <a href="/category/#Notes" title="Category: Notes" rel="category">Notes</a>
+    
+  
+
+  <!-- <span class="point">•</span> -->
+</span>
+
+
+            </div>
+
+            <div class="label-card">
+            
+<!-- <span class="point">•</span> -->
+<span class="pageTag">
+  <i class="fa fa-tags"></i>
+  
+    
+        <!--a href="/tag/#Recon" title="Tag: Recon" rel="tag">Recon</a-->
+        <a href="/tag/#Recon" title="Tag: Recon" rel="tag">Recon</a>&nbsp;
+    
+        <!--a href="/tag/#Methodology" title="Tag: Methodology" rel="tag">Methodology</a-->
+        <a href="/tag/#Methodology" title="Tag: Methodology" rel="tag">Methodology</a>&nbsp;
+    
+        <!--a href="/tag/#WebHacking" title="Tag: WebHacking" rel="tag">WebHacking</a-->
+        <a href="/tag/#WebHacking" title="Tag: WebHacking" rel="tag">WebHacking</a>
+    
+  
+
+</span>
+
+            </div>
+
+        </div>
+        <hr>
+        <article itemscope itemtype="http://schema.org/BlogPosting">
+        <ul id="markdown-toc">
+  <li><a href="#1-root-domains-enumeration" id="markdown-toc-1-root-domains-enumeration">1. Root domains enumeration</a>    <ul>
+      <li><a href="#11-asn-enumeration" id="markdown-toc-11-asn-enumeration">1.1 ASN enumeration</a></li>
+      <li><a href="#12-revers-whois" id="markdown-toc-12-revers-whois">1.2 Revers whois</a></li>
+      <li><a href="#13-google-fuzzing" id="markdown-toc-13-google-fuzzing">1.3 Google Fuzzing:</a></li>
+    </ul>
+  </li>
+  <li><a href="#2-subdomains-enumeration" id="markdown-toc-2-subdomains-enumeration">2. Subdomains enumeration</a>    <ul>
+      <li><a href="#21--linked-js-discovery" id="markdown-toc-21--linked-js-discovery">2.1  Linked JS Discovery</a></li>
+    </ul>
+  </li>
+  <li><a href="#3-subdomain-scraping" id="markdown-toc-3-subdomain-scraping">3. Subdomain scraping</a></li>
+  <li><a href="#4-subdomain-brute-force" id="markdown-toc-4-subdomain-brute-force">4. Subdomain brute force</a>    <ul>
+      <li><a href="#41-subdomain-bruiting" id="markdown-toc-41-subdomain-bruiting">4.1 Subdomain bruiting</a></li>
+      <li><a href="#42-alternate-scanning" id="markdown-toc-42-alternate-scanning">4.2 Alternate scanning</a></li>
+    </ul>
+  </li>
+  <li><a href="#5-services-enumeration" id="markdown-toc-5-services-enumeration">5. Services enumeration</a>    <ul>
+      <li><a href="#51--port-analysis-masscan" id="markdown-toc-51--port-analysis-masscan">5.1  Port Analysis (masscan)</a></li>
+      <li><a href="#52-service-scanning-brutespray" id="markdown-toc-52-service-scanning-brutespray">5.2 Service Scanning (brutespray)</a></li>
+      <li><a href="#53-github-dorking-manual" id="markdown-toc-53-github-dorking-manual">5.3 GitHub Dorking (manual)</a></li>
+      <li><a href="#54-screenshotting" id="markdown-toc-54-screenshotting">5.4 Screenshotting</a></li>
+    </ul>
+  </li>
+  <li><a href="#6--automation" id="markdown-toc-6--automation">6.  Automation</a>    <ul>
+      <li><a href="#open-sourced-recon-automation" id="markdown-toc-open-sourced-recon-automation">Open sourced recon automation</a></li>
+    </ul>
+  </li>
+</ul>
+
+<p>This document contains notes I took while studying John Haddix’s “Bug Hunter’s Methodology v4.0 - Recon Edition” (2020). It is not a standalone article or tutorial. here is the <a href="https://youtu.be/p4JgIu1mceI?si=gu_rJcR4jUrN4o8C">link</a>.</p>
+
+<h2 id="1-root-domains-enumeration">1. Root domains enumeration</h2>
+<p>This step of the reconicense focuses on finding root domains for the target. This is especialy usefull when dealling with big targets.</p>
+<h3 id="11-asn-enumeration">1.1 ASN enumeration</h3>
+<p>Analyzing an Autonomous System Number (ASN) can reveal a range of IP addresses associated with an organization. Scanning this range with a port scanner might uncover additional subdomains.</p>
+
+<p>To identify additional seed domains, we’ll conduct a comprehensive port scan of the entire Autonomous System Number (ASN).</p>
+
+<p>We’ll extract any root domains encountered within SSL certificates.</p>
+
+<h3 id="12-revers-whois">1.2 Revers whois</h3>
+
+<p>using whoxy.xom, there will be all the history and the accuesisions wish will give domain regestered</p>
+
+<p>If something is registeredit doesnt mean that it is live alot of companies parke some doamins</p>
+
+<h3 id="13-google-fuzzing">1.3 Google Fuzzing:</h3>
+
+<ul>
+  <li>
+    <p>copyright text for example <strong>(“ © 2019 twitch interactive, Inc” inurl:twitch)</strong></p>
+  </li>
+  <li>
+    <p>terms of service text</p>
+  </li>
+  <li>
+    <p>privacy policy text</p>
+  </li>
+</ul>
+
+<h2 id="2-subdomains-enumeration">2. Subdomains enumeration</h2>
+
+<h3 id="21--linked-js-discovery">2.1  Linked JS Discovery</h3>
+
+<p>To further expand our target scope, we can analyze all links within our primary target. Burp Suite Pro is a powerful tool for this task.</p>
+
+<p>By visiting a seed or root domain and recursively spidering all links, we can use regular expressions to identify relevant URLs and explore them systematically. This approach allows us to discover both subdomains and root domains.</p>
+
+<p><strong>Alternative Tools:</strong> Gospider and Hakrawler can be used as alternatives to Burp Suite Pro for linked discovery.</p>
+
+<p><strong>Recursive Spidering:</strong> The essence of linked discovery lies in the recursive use of a web spider. Gospider is a particularly versatile spider well-suited for general automation.</p>
+
+<p><strong>Subdomainaizer:</strong> This specialized tool offers three key functions for JavaScript analysis:</p>
+
+<ol>
+  <li><strong>Subdomain Discovery:</strong> Identifies subdomains referenced within JavaScript files.</li>
+  <li><strong>Cloud Service Detection:</strong> Locates cloud services mentioned in JavaScript code.</li>
+  <li><strong>Sensitive Data Detection:</strong> Employs the Shannon Entropy formula to uncover potentially sensitive information hidden within JavaScript files.</li>
+</ol>
+
+<p>Subdomainaizer analyzes a single web page, scanning for JavaScript files to process.</p>
+
+<h2 id="3-subdomain-scraping">3. Subdomain scraping</h2>
+<p>Subdomain scraping automates the process of gathering domain information from various publicly available sources. Traditionally, this involved manual effort, scouring infrastructure sources like Censys and DNSDB, search engines like Google and Bing, certificate authorities (CAs) such as crt.sh and CertSpotter, and security platforms like SecurityTrails and VirusTotal.</p>
+
+<p><strong>Example of searching from google:</strong></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>site:twitch.tv -www.twitch.tv
+site:twitch.tv -www.twitch.tv -watch.twitch.tv
+site:twitch.tv -www.twitch.tv -watch.twitch.tv -dev.twitch.tv
+</code></pre></div></div>
+<p><strong>Examples of Subdomain Scraping Tools:</strong></p>
+
+<ul>
+  <li><strong>Amass:</strong> A powerful tool excelling in subdomain enumeration. It automates the scraping process, collecting data from various sources and presenting it in a consolidated format.</li>
+  <li><strong>Subfinder V2:</strong> Another valuable tool, not only scraping for subdomains, but also exploring public Github repositories to identify potential subdomain leaks.</li>
+</ul>
+
+<h2 id="4-subdomain-brute-force">4. Subdomain brute force</h2>
+
+<p>While subdomain brute-forcing was initially the primary method, we now transition to using Amass to intelligently guess live subdomains.</p>
+
+<h3 id="41-subdomain-bruiting">4.1 Subdomain bruiting</h3>
+
+<p><strong>Amass</strong> offers brute force via <strong>“enum”</strong> tool using the <strong>“brute”</strong> switch</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+amass enum <span class="nt">-brute</span> <span class="nt">-d</span> twitch.tv <span class="nt">-src</span>
+
+</code></pre></div></div>
+<p>It has built in list, but you can specify your own list</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+amass enum <span class="nt">-brute</span> <span class="nt">-d</span> twitch.tv <span class="nt">-rf</span> resolvers.txt <span class="nt">-w</span> bruteforce.list
+
+</code></pre></div></div>
+
+<p><strong>Shuffledns</strong> could be a good option if you are resource limited with ram and CPU</p>
+
+<p>A multi resolver, threaded subdomain brute is only as good as it’s word list</p>
+
+<h3 id="42-alternate-scanning">4.2 Alternate scanning</h3>
+
+<p>During subdomain scraping, you might observe naming patterns within discovered subdomains. Altdns leverages these patterns to generate additional potential subdomains. By analyzing existing subdomains, Altdns creates permutations and alterations, expanding your subdomain list and increasing the chances of discovering hidden subdomains.</p>
+
+<p><strong>Example:</strong></p>
+
+<p>If you encounter subdomains like dev1.company.com and dev2.company.com, Altdns might generate permutations such as:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dev1.company.com
+dev2.company.com
+dev-1.company.com
+Dev-2.company.com
+Dev.1.company.com
+dev.2company.com
+</code></pre></div></div>
+<p>By systematically testing these permutations, you can potentially uncover additional valid subdomains that might have been missed through other enumeration methods.</p>
+<blockquote>
+  <p>It woth minsioning that amass now contain logic to check for these “permutations”</p>
+</blockquote>
+
+<h2 id="5-services-enumeration">5. Services enumeration</h2>
+
+<h3 id="51--port-analysis-masscan">5.1  Port Analysis (masscan)</h3>
+
+<p>Masscan is faster for general <strong>“finding-open-ports-on-tcp”</strong>. Chaining, masscan’s output to then be nmap’ed can save a lot of time. Masscan achieve this speed with a re-written TCP/IP stack, true multi threading, and written in C.</p>
+
+<p>Syntax for scanning a list of IP’s:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>masscan <span class="nt">-p1-65535</span> <span class="nt">-iL</span> <span class="nv">$ipFile</span> <span class="nt">--max-rate</span> 1800 <span class="nt">-oG</span> <span class="nv">$outPutFile</span>.logic
+</code></pre></div></div>
+<blockquote>
+  <p>Linke for masscan article <a href="https://danielmiesslger.com/study/masscan/">https://danielmiesslger.com/study/masscan/</a></p>
+</blockquote>
+
+<h3 id="52-service-scanning-brutespray">5.2 Service Scanning (brutespray)</h3>
+
+<p><strong>masscan</strong> –&gt; <strong>nmap</strong> services scan -oG –&gt; <strong>brutespray</strong> credential bruteforce</p>
+
+<p>So the full image we employ Masscan to efficiently scan the IP addresses for open ports. Once we’ve identified open ports, we use Nmap to determine the services running on them. Finally, we can leverage Brutespray, powered by Medusa, to attempt brute-force attacks against common default credentials on the identified services</p>
+
+<h3 id="53-github-dorking-manual">5.3 GitHub Dorking (manual)</h3>
+
+<p>Many organizations inadvertently expose sensitive information online through public GitHub repositories. Tools exist to search these repositories for subdomain leaks, credentials, or other vulnerabilities.</p>
+
+<h3 id="54-screenshotting">5.4 Screenshotting</h3>
+
+<ul>
+  <li>
+    <p>Eyewitness</p>
+  </li>
+  <li>
+    <p>Aquatone</p>
+  </li>
+  <li>
+    <p>httpscreenshot</p>
+  </li>
+</ul>
+
+<p>At this point we have alot of attack surface. j use eyewitness because it will prepend both the htpp and https protocol for each domain we have observed.</p>
+
+<h2 id="6--automation">6.  Automation</h2>
+
+<h3 id="open-sourced-recon-automation">Open sourced recon automation</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>C-Tier</th>
+      <th>ultimate_recon.sh</th>
+      <th>bountyREcon</th>
+      <th>Hunter</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>B-Tier</td>
+      <td>lazyRecon</td>
+      <td>oneforall</td>
+      <td>domained</td>
+    </tr>
+    <tr>
+      <td>A-Tier</td>
+      <td>recon-pipeline</td>
+      <td>indomain</td>
+      <td>X</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><em>While these notes provide a solid foundation, they only scratch the surface of this complex subject. If you’re eager to learn more, I highly recommend seeking out additional resources.</em></p>
+
+<p><em>This has been a brief overview of the key points from the original material. If you’re interested in a more in-depth exploration, I encourage you to check it out for yourself.</em></p>
+
+        </article>
+        <hr>
+
+        
+        
+            
+            
+                
+                    
+                
+                    
+                
+                    
+                
+            
+                
+                    
+                
+                    
+                
+                    
+                
+            
+        
+        
+
+        <div class="post-recent">
+    <div class="pre">
+        
+    </div>
+    <div class="nex">
+
+        
+        <p><strong>Next</strong> <a href="/2022/10/21/homeboy-post/">Intro to malware analysis Amr Thabet</a></p>
+        
+    </div>
+</div>
+
+
+        <!-- <h2 id="comments">Comments</h2>
+        
+
+
+ -->
+
+
+    </div>
+    <button class="anchor"><i class="fa fa-anchor"></i></button>
+    <div class="right">
+        <div class="wrap">
+
+            <!-- Content -->
+            <div class="side content">
+                <div>
+                    Content
+                </div>
+                <ul id="content-side" class="content-ul">
+                    
+                    <!-- <li><a href="#comments">Comments</a></li> -->
+                </ul>
+            </div>
+            <!-- 其他div框放到这里 -->
+            <!-- <div class="side">bbbb</div> -->
+        </div>
+    </div>
+</div>
+<script>
+/**
+ * target _blank
+ */
+(function() {
+    var aTags = document.querySelectorAll('article a:not([id])')
+    for (var i = 0; i < aTags.length; i++) {
+        aTags[i].setAttribute('target', '_blank')
+    }
+}());
+</script>
+<script src="/js/pageContent.js " charset="utf-8"></script>
+
+
+    <footer class="site-footer">
+
+
+    <div class="wrapper">
+
+        <p class="description">
+            
+        </p>
+        <p class="contact">
+            Contact me at: 
+            <a href="https://github.com/maabedelhay" title="GitHub"><i class="fa fa-github" aria-hidden="true"></i></a>  
+            <a href="mailto:mohamad.abedhay1@gmail.com" title="email"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>    
+            <a href="https://twitter.com/ab3d_hay" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>  
+            <a href="https://t.me/ab3dhay" title="Telegram"><i class="fa fa-telegram" aria-hidden="true"></i></a>    
+            <a href="https://www.linkedin.com/in/maabedelhay" title="LinkedIn"><i class="fa fa-linkedin" aria-hidden="true"></i></a>  
+        </p>
+
+        <p class="power">
+            <span>
+                Powered by <a href="https://jekyllrb.com/">Jekyll</a> & <a href="https://pages.github.com/">Github Pages</a>.
+            </span>
+            <span>
+                Inspired from <a href="https://github.com/Gaohaoyang">HyG</a>.
+            </span>
+        </p>
+    </div>
+</footer>
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+    <div class="back-to-top">
+    <a href="#top" data-scroll>
+        <i class="fa fa-arrow-up" aria-hidden="true"></i>
+    </a>
+</div>
+
+    <script src=" /js/main.js " charset="utf-8"></script>
+    <script src=" /js/smooth-scroll.min.js " charset="utf-8"></script>
+    <script type="text/javascript">
+      smoothScroll.init({
+        speed: 500, // Integer. How fast to complete the scroll in milliseconds
+        easing: 'easeInOutCubic', // Easing pattern to use
+        offset: 20, // Integer. How far to offset the scrolling anchor location in pixels
+      });
+    </script>
+    <!-- <script src=" /js/scroll.min.js " charset="utf-8"></script> -->
+  </body>
+
+</html>
