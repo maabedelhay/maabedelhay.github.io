@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: pageNoBorder
 title: About
 permalink: /about/
 icon: user-circle
@@ -10,15 +10,15 @@ type: page
 {:toc}
 
 <!-- ![alt](../profile.png) -->
-<img src="../profile.png" alt="drawing" style="width:25%;border-radius: 50%;"/>
+<!-- <img src="../profile.png" alt="drawing" style="width:25%;border-radius: 50%;"/> -->
 
-I am Mohamad a student and information security enthusiast. 
+I am Mohamad a Security engineer. 
 
 Current focus:
 
-- Malware Analysis
-- Reverse Engineering
+- Software development
 - Threat Intelligence
+- SSDLC
 
 <!-- Link to my [resume][1]
 

@@ -3,12 +3,14 @@ layout: default
 ---
 
 <div class="page clearfix" index>
+<!--
   <div class="banner">
     <img src="/assets/back_baner_218h_white.png" alt="banner"  />
 </div>
+ -->
     <div class="left">
-        <!-- <h1>Welcome to %mabd's Blog!</h1> -->
-        <small>Bad malware analysis and TI</small>
+        <!-- <h1>Bad malware analysis and TI</h1> -->
+        <!-- <small>Bad malware analysis and TI</small> -->
         <hr>
         <ul>
             {% for post in paginator.posts %}
@@ -18,12 +20,12 @@ layout: default
                 </h2>
                 <div class="label">
                     <div class="label-card">
-                        <i class="fa fa-calendar"></i>{{ post.date | date: "%F" }}
+                        {{ post.date | date: "%F" }}
                     </div>
-                    <div class="label-card">
+                    <!-- <div class="label-card">
                         {% if post.author %}<i class="fa fa-user"></i>{{ post.author }}
                         {% endif %}
-                    </div>
+                    </div> -->
                     <div class="label-card">
                         {% if page.meta %}<i class="fa fa-key"></i>{{ page.meta }}  {% endif %}
                     </div>
@@ -38,11 +40,11 @@ layout: default
                 </div>
                 <div class="excerpt">
                     {{post.excerpt}}
+                     <a  href="{{ post.url | prepend: site.baseurl }}">Read All</a>
                 </div>
-                <div class="read-all">
+                <!-- <div class="read-all">
                     <a  href="{{ post.url | prepend: site.baseurl }}"><i class="fa fa-newspaper-o"></i>Read All</a>
-                </div>
-                <hr>
+                </div> -->
               </li>
             {% endfor %}
         </ul>
@@ -50,6 +52,7 @@ layout: default
 
 
         <!-- Pagination links -->
+         {% if paginator.total_pages > 1 %}
         <div class="pagination">
           {% if paginator.previous_page %}
             <a href="/index.html" class="previous"><i class="fa fa-angle-double-left"></i></a>
@@ -67,11 +70,12 @@ layout: default
             <span class="next disable"><i class="fa fa-angle-double-right"></i></span>
           {% endif %}
         </div>
+         {% endif %}
     </div>
     <!-- <button class="anchor"><i class="fa fa-anchor"></i></button> -->
     <div class="right">
         <div class="wrap">
-            <div class="side">
+            <!-- <div class="side">
                 <div>
                     <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
                     Recent Posts
@@ -81,12 +85,12 @@ layout: default
                         <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
                     {% endfor %}
                 </ul>
-            </div>
+            </div> -->
 
             <!-- Content -->
-            <div class="side ">
+            <div class="side">
                 <div>
-                    <i class="fa fa-th-list"></i>
+
                     Categories
                 </div>
                 <ul class="content-ul" cate>
@@ -102,10 +106,10 @@ layout: default
                     {% endfor %}
                 </ul>
             </div>
+            <hr>
             <!-- 其他div框放到这里 -->
             <div class="side">
                 <div>
-                    <i class="fa fa-tags"></i>
                     Tags
                 </div>
                 <div class="tags-cloud">
@@ -142,7 +146,7 @@ layout: default
                       {% else %}
                         {% assign color = 8 | minus: base %}
                       {% endif %}
-                      <a href="{{ root_url }}/{{ site.tag_dir }}#{{ tag[0] }}" style="font-size: {{ size }}pt; color: #{{ color }}{{ color }}{{ color }};">{{ tag[0] }}</a>
+                      <a href="{{ root_url }}/{{ site.tag_dir }}#{{ tag[0] }}" style="font-size: {{ size }}pt;">{{ tag[0] }}</a>
                     {% endfor %}
                 </div>
             </div>

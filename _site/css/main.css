@@ -30,13 +30,9 @@ html {
   height: 100%; }
 
 body {
-  font-family: 'Helvetica Neue',Helvetica,Arial,'Microsoft YaHei',sans-serif;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   color: #242424;
-  background: #000001;
-  background: -moz-linear-gradient(180deg, #000001 32%, #010333 98%);
-  background: -webkit-linear-gradient(180deg, #000001 32%, #010333 98%);
-  background: linear-gradient(180deg, #000001 32%, #010333 98%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000001",endColorstr="#010333",GradientType=1);
+  background-color: #050507;
   background-attachment: fixed;
   position: relative;
   min-height: 100%;
@@ -59,7 +55,6 @@ h1 {
 
 h2 {
   font-size: 26px;
-  border-bottom: 1px solid #eee;
   margin: 50px 0 25px; }
 
 h3 {
@@ -113,7 +108,6 @@ img {
   max-width: 100%; }
 
 header {
-  background: #000000;
   height: 52px;
   color: #9d9d9d;
   margin-bottom: 20px; }
@@ -151,12 +145,11 @@ header {
             padding: 0 10px;
             height: 52px; }
             header .wrapper nav ul li a:hover {
-              background-color: #1e90ff; }
+              color: #999; }
             header .wrapper nav ul li a i {
               margin-right: 5px; }
           header .wrapper nav ul li > .active {
-            color: #ffffff;
-            background-color: #1e90ff; }
+            color: #999; }
 
 @media screen and (max-width: 1200px) and (min-width: 770px) {
   header {
@@ -252,16 +245,20 @@ header {
     float: left;
     margin-right: 15px; }
     .page[post] .label .label-card .point {
-      padding: 0 10px;
+      padding: 0 1px;
       color: #ffffff; }
     .page[post] .label .label-card i {
-      padding-right: 5px;
+      padding-right: 1px;
       color: #a3a3a3; }
 .page[post] a {
-  color: #2b60cc;
+  color: #999;
   transition: 0.5s ease; }
   .page[post] a:hover {
     color: #1e3157; }
+.page[post] .left h1 {
+  font-weight: 300;
+  color: #837800;
+  font-size: 80px; }
 .page[post] .left ul > h2 {
   color: #ffffff; }
 .page[post] .left ul li {
@@ -295,30 +292,33 @@ header {
   box-sizing: border-box;
   margin: 0 auto; }
   .page .left {
-    color: #ffffff;
-    width: 75%;
+    color: #dbdbdb;
+    width: 80%;
     float: left;
-    padding: 20px 30px;
+    padding: 20px 0px;
     line-height: 1.6;
-    font-size: 16px;
-    background-color: #0a0c0c;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.4), 0 0 10px rgba(10, 10, 0, 0.1) inset; }
+    font-size: 19px;
+    border-right: 1px solid  #999; }
+    .page .left hr {
+      border-color: #999; }
+    .page .left article {
+      padding: 20px 30px; }
     .page .left > h1 {
       margin-bottom: -10px; }
     .page .left a:not([title]) {
       word-break: break-all; }
     .page .left ul > h2 {
       margin-left: -40px;
-      color: #ffffff; }
+      color: #dbdbdb; }
     .page .left ul li {
       line-height: 1.8;
-      color: #5cc715; }
+      color: #6f6f85; }
       .page .left ul li time {
         display: inline-block;
         width: 135px; }
       .page .left ul li .title {
         font-weight: bold;
-        color: #ffffff;
+        color: #dbdbdb;
         transition: 0.3s ease; }
         .page .left ul li .title:hover {
           color: #919191; }
@@ -327,23 +327,22 @@ header {
       .page .left ul li .categories {
         padding: 0 15px; }
         .page .left ul li .categories i {
-          color: #ffffff; }
+          color: #dbdbdb; }
         .page .left ul li .categories a {
           padding: 2px 4px 2px 4px;
-          background-color: #0f1bb9;
           border-radius: 4px;
-          color: #fff;
+          color: #dbdbdb;
           font-size: 90%;
           transition: 0.3s ease; }
           .page .left ul li .categories a:hover {
             background-color: #707070; }
       .page .left ul li .pageTag i {
-        color: #ffffff; }
+        color: #dbdbdb; }
       .page .left ul li .pageTag a {
         padding: 2px 4px 2px 4px;
-        background-color: #006432;
+        background-color: #272b29;
         border-radius: 4px;
-        color: #fff;
+        color: #dbdbdb;
         font-size: 90%;
         transition: 0.3s ease; }
         .page .left ul li .pageTag a:hover {
@@ -352,9 +351,10 @@ header {
     display: none; }
   .page .right {
     float: left;
-    width: 25%;
-    padding-left: 20px;
+    width: 20%;
     top: 0; }
+    .page .right hr {
+      border-color: #999; }
     .page .right .fixed {
       position: fixed;
       top: 20px; }
@@ -363,9 +363,7 @@ header {
       bottom: 190px; }
     .page .right .side {
       box-sizing: border-box;
-      color: #ffffff;
-      background-color: #0a0c0c;
-      box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.3), 0 0 10px rgba(10, 10, 0, 0.1) inset;
+      color: #dbdbdb;
       padding-bottom: 1px;
       -ms-word-break: break-all;
       word-break: break-all;
@@ -376,15 +374,14 @@ header {
       hyphens: auto; }
       .page .right .side > div {
         padding: 12px 15px;
-        color: #ffffff;
-        border-bottom: 1px solid #c0c0c0;
+        color: #dbdbdb;
         font-size: 16px;
         font-weight: bold; }
       .page .right .side a {
-        color: #ffffff;
+        color: #dbdbdb;
         transition: 0.5s ease; }
         .page .right .side a:hover {
-          color: #d3d3d3; }
+          color: #dbdbdb; }
     .page .right .content-ul {
       overflow-y: auto;
       padding-right: 10px;
@@ -684,10 +681,14 @@ pre {
     color: #a6e22e; }
 
 .page[index] a {
-  color: #acacac;
+  color: #cccccc;
   transition: 0.5s ease; }
   .page[index] a:hover {
-    color: #0084ff; }
+    color: #705a2a; }
+.page[index] .left h1 {
+  font-weight: 300;
+  color: #c2c2c2;
+  font-size: 80px; }
 .page[index] .left > ul {
   padding: 0; }
   .page[index] .left > ul > li {
@@ -700,7 +701,8 @@ pre {
       margin: 0; }
     .page[index] .left > ul li .label {
       margin-bottom: 15px;
-      overflow: hidden; }
+      overflow: hidden;
+      color: #c2c2c2; }
       .page[index] .left > ul li .label .label-card {
         float: left;
         margin-right: 15px; }
@@ -752,8 +754,7 @@ pre {
         color: #ffffff;
         display: block;
         width: 100%;
-        padding: 2px 0;
-        border-bottom: 1px solid #dbdbdb; }
+        padding: 2px 0; }
         .page[index] .right .wrap .side .content-ul[cate] li a:hover {
           background-color: #3b3b3b; }
         .page[index] .right .wrap .side .content-ul[cate] li a .name {
@@ -766,24 +767,21 @@ pre {
           margin-top: 3px;
           padding: 0 10px;
           font-size: 12px;
-          color: #ffffff;
-          background-color: #0d73da;
-          border-radius: 50%;
+          color: #0481ff;
           transition: 0.5s ease-in-out; }
       .page[index] .right .wrap .side .content-ul[cate] li:last-of-type a {
         border: none; }
   .page[index] .right .wrap .side .content-ul[recent] {
     padding-bottom: 16px; }
     .page[index] .right .wrap .side .content-ul[recent] li {
-      color: #1e90ff;
+      color: #007ffd;
       font-size: 14px; }
   .page[index] .right .wrap .side .tags-cloud {
-    color: #ffffff;
     font-weight: normal; }
     .page[index] .right .wrap .side .tags-cloud a {
       padding: 0 3px;
       border-radius: 5px;
-      color: #ffffff; }
+      color: #888; }
       .page[index] .right .wrap .side .tags-cloud a:hover {
         background-color: #2b2b2b; }
 
@@ -855,7 +853,6 @@ pre {
   bottom: 0;
   left: 0;
   text-align: center;
-  background-color: #000000;
   color: #bbb; }
   .site-footer .wrapper {
     width: 1140px;

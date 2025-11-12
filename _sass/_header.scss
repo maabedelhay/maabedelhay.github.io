@@ -1,5 +1,5 @@
 header {
-    background: #000000;
+    // background: #000000;
     height: 52px;
     color: #9d9d9d;
     // box-shadow: 0 2px 4px 1px rgba(0,0,0,0.5);
@@ -43,15 +43,16 @@ header {
                         padding: 0 10px;
                         height: 52px;
                         &:hover {
-                            background-color: #1e90ff;
+                            // background-color: #161616;
+                            color: #999;
                         }
                         i {
                             margin-right: 5px;
                         }
                     }
                     >.active {
-                        color: #ffffff;
-                        background-color: #1e90ff;
+                        color: #999;
+                        // background-color: #161616;
                         // box-shadow: 0 25px 25px -15px rgba(255,255,255,0.93);
                     }
                 }
