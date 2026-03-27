@@ -2,7 +2,7 @@
 layout: post
 title: John Haddix's "Bug Hunter's Methodology v4.0 - Recon Edition" 
 date: 2021-10-25 22:00:00
-categories: Notes
+categories: Note
 tags: Recon Methodology WebHacking
 author: Mabd
 ---

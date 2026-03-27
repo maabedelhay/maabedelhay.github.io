@@ -5,9 +5,24 @@
     <description></description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 19 Nov 2025 12:23:14 +0300</pubDate>
-    <lastBuildDate>Wed, 19 Nov 2025 12:23:14 +0300</lastBuildDate>
+    <pubDate>Fri, 27 Mar 2026 20:06:57 +0300</pubDate>
+    <lastBuildDate>Fri, 27 Mar 2026 20:06:57 +0300</lastBuildDate>
     <generator>Jekyll v3.9.5</generator>
+    
+      <item>
+        <title>LEAD Platform</title>
+        <description>
+</description>
+        <pubDate>Thu, 26 Mar 2026 06:12:10 +0300</pubDate>
+        <link>http://localhost:4000/2026/03/26/leadplatform/</link>
+        <guid isPermaLink="true">http://localhost:4000/2026/03/26/leadplatform/</guid>
+        
+        <category>LEAD</category>
+        
+        
+        <category>Article</category>
+        
+      </item>
     
       <item>
         <title>Intro to malware analysis Amr Thabet</title>
@@ -22,7 +37,7 @@
         <category>APT</category>
         
         
-        <category>Notes</category>
+        <category>Note</category>
         
       </item>
     
@@ -41,7 +56,7 @@
         <category>WebHacking</category>
         
         
-        <category>Notes</category>
+        <category>Note</category>
         
       </item>
     

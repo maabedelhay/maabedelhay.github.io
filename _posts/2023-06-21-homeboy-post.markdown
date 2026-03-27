@@ -2,7 +2,7 @@
 layout: post
 title: Intro to malware analysis Amr Thabet
 date: 2022-10-21  9:00:00
-categories: Notes
+categories: Note
 tags: Malware-analysis APT
 author: Mabd
 ---
@@ -20,7 +20,7 @@ This is a walkthrough for a tutorial on an intoroduction to malware analysis.
 A malware family is **a program or set of associated programs with enough "code overlap" to be considered part of the same group**. Grouping them as a family broadens the scope of a single piece of  malware as it alters over time, creating a new piece of malware with distinct family traits.
 
 
-<img style="float:right;filter: grayscale(100%);width:40%" src="/assets/homeboy/dark_gothic_fox.jpeg    " />
+<img style="float:right;filter: grayscale(100%);width:40%" src="/assets/img/dark_gothic_fox.jpeg    " />
 
 ## 2. Types of Malware applications
 
