@@ -23,7 +23,7 @@ Our country with significant economic potential and highly skilled, creative and
 
 Transform the economy from a consuming one to a productive one. Help local businesses find a place in foreign markets and start exporting using expats as the bridge.
 
-<img style="float:right ;width:40%" src="/assets/img/2026-03-25-leadplatform/lead.png" />
+<img style="float:right ;width:40%" src="/assets/img/2026-03-25-leadplatform/lead_p.png" />
 
 ## What to build
 
